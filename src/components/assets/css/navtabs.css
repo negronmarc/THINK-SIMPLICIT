@@ -1,0 +1,24 @@
+#dropdown-button {
+  background-color: #ff99a4;
+  border: 2px solid rgba(0, 0, 0, 0.45);
+  font-size: 15px;
+}
+
+#navigation {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  top: 20px;
+}
+
+#navigation:hover {
+  color: #ff99a4;
+}
+
+#navigation:active {
+  color: #ff99a4;
+}

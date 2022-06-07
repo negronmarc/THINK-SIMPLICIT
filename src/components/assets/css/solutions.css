@@ -1,0 +1,166 @@
+#thinking-woman {
+  position: relative;
+  height: 814px;
+  left: 0px;
+}
+
+#image-text {
+  top: 420px;
+}
+
+#think-simple-text {
+  font-family: "Source Sans 3";
+  font-style: oblique;
+  font-weight: bold;
+  background-size: auto;
+  background-color: black;
+  padding: 10px;
+  opacity: 0.8;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#desc-text {
+  position: relative;
+  height: 117px;
+  left: 30px;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 10px;
+}
+
+#our-services {
+  position: relative;
+  height: 18px;
+  right: 10px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+#services {
+  position: relative;
+  height: 97px;
+  right: 10px;
+  font-family: "Source Sans 3";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: right;
+  list-style-type: none;
+}
+
+.let-talk {
+  position: relative;
+  width: 166px;
+  height: 45px;
+  color: white;
+  background: #ff99a4;
+  border: 2px solid rgba(0, 0, 0, 0.45);
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+#button-one {
+  left: 30px;
+  margin-top: 20px;
+}
+
+#what-story {
+  position: relative;
+  font-family: "Bebas Neue";
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#group-talk {
+  position: relative;
+  height: 700px;
+  left: 1px;
+  border-radius: 80px;
+}
+
+#customer-text {
+  position: relative;
+  padding: 20px;
+  font-family: "Source Sans 3";
+}
+
+#circle-images-container {
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.circle-image-title {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+}
+
+.circle-images {
+  position: relative;
+  height: 120%;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.ending-text {
+  position: relative;
+  padding: 30px;
+}
+
+.more-simplicit {
+  padding: 5px;
+  text-align: center;
+}
+
+#button-two {
+  right: 22%;
+}
+
+footer {
+  background-color: black;
+  margin-top: 10px;
+  overflow: auto;
+}
+
+#left-text {
+  float: left;
+  margin-top: 10px;
+}
+
+#footer-left-text {
+  list-style-type: none;
+  color: white;
+}
+
+.footer-icons {
+  padding: 5px;
+}
+
+#right-text {
+  float: right;
+  color: white;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+#enter-email {
+  border-radius: 0px;
+}
+
+#subscribe-button {
+  color: white;
+  background: #ff99a4;
+  border: #ff99a4;
+  text-align: end;
+  width: 100%;
+}

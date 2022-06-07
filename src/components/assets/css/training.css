@@ -1,0 +1,118 @@
+#onsite {
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#sales-training {
+  height: auto;
+  width: 100%;
+  background-image: url("../images/groupmeeting.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+}
+
+.training-between {
+  position: relative;
+  padding: 30px;
+}
+
+.text-between {
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.let-talk-training {
+  position: relative;
+  width: 166px;
+  height: 45px;
+  color: white;
+  background: #ff99a4;
+  border: 2px solid rgba(0, 0, 0, 0.45);
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.training-titles {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.grey-background {
+  background-color: #ffffff;
+  opacity: 0.8;
+  margin: 0px 30px 30px 30px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+#sales-coaching {
+  height: auto;
+  width: 100%;
+  background-image: url("../images/suit.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+}
+
+#crm-consulting {
+  height: auto;
+  width: 100%;
+  background-image: url("../images/tablet.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+}
+
+#brand-experience {
+  height: auto;
+  width: 100%;
+  background-image: url("../images/storytelling.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+}
+
+footer {
+  background-color: black;
+  margin-top: 10px;
+  overflow: auto;
+}
+
+#left-text {
+  float: left;
+  margin-top: 10px;
+}
+
+#footer-left-text {
+  list-style-type: none;
+  color: white;
+}
+
+.footer-icons {
+  padding: 5px;
+}
+
+#right-text {
+  float: right;
+  color: white;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+#enter-email {
+  border-radius: 0px;
+}
+
+#subscribe-button {
+  color: white;
+  background: #ff99a4;
+  border: #ff99a4;
+  text-align: end;
+  width: 100%;
+}
