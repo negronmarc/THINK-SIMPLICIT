@@ -6,6 +6,7 @@ import Fractional from "./pages/Fractional";
 import Training from "./pages/Training";
 import Resources from "./pages/Resources";
 import Work from "./pages/Work";
+import Hamburger from "./Hamburger";
 import "./assets/css/container.css";
 
 export default function ThinkContainer() {
@@ -40,6 +41,12 @@ export default function ThinkContainer() {
         <h1 id="website-name">THINK SIMPLICIT</h1>
         <div id="nav">
           <NavTabs
+            currentPage={currentPage}
+            handlePageChange={handlePageChange}
+          />
+        </div>
+        <div id="hamburger">
+          <Hamburger
             currentPage={currentPage}
             handlePageChange={handlePageChange}
           />

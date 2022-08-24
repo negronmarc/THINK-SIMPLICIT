@@ -1,0 +1,12 @@
+#lines {
+  color: #ff99a4;
+}
+
+#navigation-burger {
+  color: white;
+  font-weight: bold;
+}
+
+#navigation-burger:hover {
+  color: #ff99a4;
+}
