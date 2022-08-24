@@ -68,9 +68,14 @@
   border-radius: 25px;
 }
 
-#button-one {
+.let-talk:hover {
+  background: white;
+  color: #ff99a4;
+}
+
+#solutions-button-one {
   left: 30px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 #what-story {
@@ -83,8 +88,8 @@
 
 #group-talk {
   position: relative;
-  height: 700px;
-  left: 1px;
+  max-width: 100%;
+  height: auto;
   border-radius: 80px;
 }
 
@@ -92,6 +97,7 @@
   position: relative;
   padding: 20px;
   font-family: "Source Sans 3";
+  font-size: 20px;
 }
 
 #circle-images-container {
@@ -108,6 +114,7 @@
 .circle-images {
   position: relative;
   height: 120%;
+  width: 300px;
   border-radius: 50%;
   padding: 10px;
 }
@@ -122,7 +129,7 @@
   text-align: center;
 }
 
-#button-two {
+#solutions-button-two {
   right: 22%;
 }
 
@@ -132,35 +139,142 @@ footer {
   overflow: auto;
 }
 
-#left-text {
+#solutions-footer-left-text {
   float: left;
   margin-top: 10px;
 }
 
-#footer-left-text {
+#solutions-footer-list-text {
   list-style-type: none;
   color: white;
 }
 
-.footer-icons {
+.solutions-footer-icons {
   padding: 5px;
 }
 
-#right-text {
+#solutions-footer-right-text {
   float: right;
   color: white;
   margin-right: 20px;
   margin-top: 10px;
 }
 
-#enter-email {
+#solutions-enter-email {
   border-radius: 0px;
 }
 
-#subscribe-button {
+#solutions-subscribe-button {
   color: white;
   background: #ff99a4;
   border: #ff99a4;
   text-align: end;
   width: 100%;
+}
+
+@media screen and (max-width: 994px) {
+  #image-text {
+    top: 340px;
+  }
+  #thinking-woman {
+    height: 614px;
+  }
+  #desc-text {
+    font-size: 16px;
+  }
+  #solutions-button-one {
+    font-size: 14px;
+    height: 35px;
+    width: 120px;
+  }
+  #our-services {
+    font-size: 12px;
+  }
+  #services {
+    font-size: 12px;
+  }
+  #customer-text {
+    font-size: 16px;
+  }
+  .circle-images-individual {
+    padding: 60px;
+  }
+  .circle-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  #think-simple-text {
+    font-size: 25px;
+  }
+  #desc-text {
+    font-size: 12px; 
+  }
+  #our-services {
+    font-size: 10px;
+  }
+  #services {
+    font-size: 10px;
+  }
+  #solutions-button-one {
+    font-size: 12px;
+    height: 32px;
+    width: 110px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  #think-simple-text {
+    font-size: 18px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  #desc-text {
+    font-size: 10px; 
+  }
+  #our-services {
+    font-size: 8.5px;
+  }
+  #services {
+    font-size: 8.5px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #thinking-woman {
+    height: 400px;
+  }
+  #image-text {
+    top: 220px;
+  }
+  #think-simple-text {
+    font-size: 16px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #solutions-foot {
+    display: flex;
+    flex-flow: column;
+  }
+  #solutions-footer-left-text {
+    order: 2;
+  }
+  #solutions-footer-right-text {
+    float: left;
+    margin-left: 32px;
+    order: 1;
+  }
+  #solutions-enter-email {
+    width: 65%;
+  }
+  #solutions-subscribe-button {
+    width: 65%;
+  }
 }
