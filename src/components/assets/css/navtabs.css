@@ -2,6 +2,13 @@
   background-color: #ff99a4;
   border: 2px solid rgba(0, 0, 0, 0.45);
   font-size: 15px;
+  transform: translateY(-.3rem);
+}
+
+#dropdown-button:focus,
+#dropdown-button:active {
+  box-shadow: none;
+  outline: 0px;
 }
 
 #navigation {
@@ -21,4 +28,13 @@
 
 #navigation:active {
   color: #ff99a4;
+}
+
+@media screen and (max-width: 767px) {
+  #dropdown-button {
+    font-size: 12px;
+  }
+  #navigation {
+    font-size: 12px;
+  }
 }
