@@ -25,7 +25,7 @@ export default function Fractional() {
         <h5 class="training-titles">SALES TRAINING</h5>
         <div class="grey-background">
           <div id="" class="row justify-content-evenly">
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -34,7 +34,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -43,7 +43,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -52,7 +52,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -63,7 +63,7 @@ export default function Fractional() {
             </section>
           </div>
           <div id="" class="row justify-content-evenly">
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -72,7 +72,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -81,7 +81,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -90,7 +90,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -107,7 +107,7 @@ export default function Fractional() {
           WE BUILD THE FOUNDATION TO OPTIMIZE <br />
           YOUR SALES POTENTIAL
         </h4>
-        <button id="button-two" class="let-talk-training col-1">
+        <button id="training-button-two" class="let-talk-training col-1">
           Let's Talk
         </button>
       </div>
@@ -115,7 +115,7 @@ export default function Fractional() {
         <h5 class="training-titles">SALES COACHING</h5>
         <div class="grey-background">
           <div id="" class="row justify-content-evenly">
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -124,7 +124,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -133,7 +133,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -142,7 +142,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -153,7 +153,7 @@ export default function Fractional() {
             </section>
           </div>
           <div id="" class="row justify-content-evenly">
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -162,7 +162,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -171,7 +171,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -180,7 +180,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -197,7 +197,7 @@ export default function Fractional() {
           WE CREATE INTERACTIVE WORKSHOPS TO BUILD <br />
           UPON AN ESTABLISHED FOUNDATION
         </h4>
-        <button id="button-two" class="let-talk-training col-1">
+        <button id="training-button-two" class="let-talk-training col-1">
           Let's Talk
         </button>
       </div>
@@ -205,7 +205,7 @@ export default function Fractional() {
         <h5 class="training-titles">CRM CONSULTING</h5>
         <div class="grey-background">
           <div id="" class="row justify-content-evenly">
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -214,7 +214,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -223,7 +223,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -232,7 +232,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -243,7 +243,7 @@ export default function Fractional() {
             </section>
           </div>
           <div id="" class="row justify-content-evenly">
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -252,7 +252,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -261,7 +261,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -270,7 +270,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -287,7 +287,7 @@ export default function Fractional() {
           WE ASSIST IN CREATING A HIGH PERFORMING CRM <br />
           PROCESSES TO OPTIMIZE SALES & MARKETING
         </h4>
-        <button id="button-two" class="let-talk-training col-1">
+        <button id="training-button-two" class="let-talk-training col-1">
           Let's Talk
         </button>
       </div>
@@ -295,7 +295,7 @@ export default function Fractional() {
         <h5 class="training-titles">BRAND EXPERIENCE</h5>
         <div class="grey-background">
           <div id="" class="row justify-content-evenly">
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -304,7 +304,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -313,7 +313,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -322,7 +322,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -333,7 +333,7 @@ export default function Fractional() {
             </section>
           </div>
           <div id="" class="row justify-content-evenly">
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -342,7 +342,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -351,7 +351,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -360,7 +360,7 @@ export default function Fractional() {
                 nisi ut aliquip ex ea commodo consequat.{" "}
               </p>
             </section>
-            <section class="col-3">
+            <section class="col-lg-3 col-md-3 col-sm-12">
               <h6>lorem Ipsum</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -377,37 +377,37 @@ export default function Fractional() {
           WE DEVELOP A CUSTOMER JOURNEY THAT ENABLES <br />
           YOUR BRAND TO HAVE THE BIGGEST IMPACT
         </h4>
-        <button id="button-two" class="let-talk-training col-1">
+        <button id="training-button-two" class="let-talk-training col-1">
           Let's Talk
         </button>
       </div>
-      <footer>
-        <div id="left-text">
-          <ul id="footer-left-text">
+      <footer id="training-foot">
+        <div id="training-footer-left-text">
+          <ul id="training-footer-list-text">
             <li>New Jersey, USA</li>
             <li>hello@thinksimplicit.com</li>
             <li>(973) 814-4431</li>
             <li>
-              <i class="bi bi-linkedin footer-icons"></i>{" "}
-              <i class="bi bi-twitter footer-icons"></i>{" "}
-              <i class="bi bi-instagram footer-icons"></i>
+              <i class="bi bi-linkedin training-footer-icons"></i>{" "}
+              <i class="bi bi-twitter training-footer-icons"></i>{" "}
+              <i class="bi bi-instagram training-footer-icons"></i>
             </li>
             <br />
             <li>© 2022 Think Simplicit. All rights reserved</li>
           </ul>
         </div>
-        <div id="right-text">
+        <div id="training-footer-right-text">
           <h4>INSPIRE YOUR THINKING</h4>
           <div class="form-group">
             <input
               type="email"
               class="form-control"
-              id="enter-email"
+              id="training-enter-email"
               aria-describedby="emailHelp"
               placeholder="Enter email"
             ></input>
           </div>
-          <button id="subscribe-button">SUBCRIBE</button>
+          <button id="training-subscribe-button">SUBSCRIBE</button>
         </div>
       </footer>
     </div>

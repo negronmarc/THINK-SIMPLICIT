@@ -1,0 +1,141 @@
+header {
+  background-color: #ff99a4;
+  overflow: auto;
+  margin-bottom: 15px;
+}
+
+#work-header-left-text {
+  font-family: Source Sans 3;
+  float: left;
+  margin-top: 30px;
+  margin-left: 22px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  width: 400px;
+}
+
+#work-header-right-text {
+  font-family: Source Sans 3;
+  float: right;
+  color: white;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+#touch {
+  text-align: end;
+}
+
+#work-header-list-text {
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+  text-align: end;
+}
+
+#contact-title {
+  margin-left: 20px;
+  font-family: Source Sans 3;
+}
+
+#hubspot-form {
+  background-color: #c4c4c4;
+  padding: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: black;
+  margin-top: 10px;
+  overflow: auto;
+}
+
+#work-footer-left-text {
+  float: left;
+  margin-top: 10px;
+}
+
+#work-footer-list-text {
+  list-style-type: none;
+  color: white;
+}
+
+.work-footer-icons {
+  padding: 5px;
+}
+
+#work-footer-right-text {
+  float: right;
+  color: white;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+#work-enter-email {
+  border-radius: 0px;
+}
+
+#work-subscribe-button {
+  color: white;
+  background: #ff99a4;
+  border: #ff99a4;
+  text-align: end;
+  width: 100%;
+}
+
+@media screen and (max-width: 724px) {
+  #work-header-right-text {
+    float: left;
+    margin-right: -20px;
+    margin-top: -30px;
+  }
+  #touch {
+    text-align: left;
+    margin-left: 30px;
+  }
+  #work-header-list-text {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #work-foot {
+    display: flex;
+    flex-flow: column;
+  }
+  #work-footer-left-text {
+    order: 2;
+  }
+  #work-footer-right-text {
+    float: left;
+    margin-left: 32px;
+    order: 1;
+  }
+  #work-enter-email {
+    width: 65%;
+  }
+  #work-subscribe-button {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #work-header-left-text p {
+    font-size: 15px;
+    width: 250px;
+  }
+  #touch {
+    font-size: 20px;
+  }
+  #work-header-list-text {
+    font-size: 15px;
+  }
+}

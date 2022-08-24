@@ -7,6 +7,8 @@ import rocketHand from "../assets/images/rockethand.jpg";
 import glassPaper from "../assets/images/glasspaper.jpg";
 import headset from "../assets/images/headset.jpg";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import ButtonLink from "../ButtonLink";
 
 export default function Solutions() {
   return (
@@ -41,9 +43,13 @@ export default function Solutions() {
           </ul>
         </div>
       </div>
-      <button id="button-one" class="let-talk">
-        Let's Talk
-      </button>
+      <Router>
+        <Link to= "/Workwithus">
+          <button id="solutions-button-one" class="let-talk">
+            Let's Talk
+          </button>
+        </Link>
+      </Router>
       <h3 id="what-story" class="col-12">
         WHAT’S YOUR CUSTOMER JOURNEY?
       </h3>
@@ -64,59 +70,59 @@ export default function Solutions() {
         </p>
       </div>
       <div id="circle-images-container" class="row justify-content-evenly">
-        <div class="col-3">
+        <div class="circle-images-individual col-lg-3 col-md-6 col-sm-6 col-xs-12">
           <p class="circle-image-title">EXECUTIVE SALES LEADERSHIP</p>
-          <img src={shakeHands} class="col-12 col-centered circle-images" />
+          <img src={shakeHands} class=" circle-images" />
         </div>
-        <div class="col-3">
+        <div class="circle-images-individual col-lg-3 col-md-6 col-sm-6 col-xs-12">
           <p class="circle-image-title">CHIEF REVENUE OFFICER (CRO)</p>
-          <img src={rocketHand} class="col-12 col-centered circle-images" />
+          <img src={rocketHand} class=" circle-images" />
         </div>
-        <div class="col-3">
+        <div class="circle-images-individual col-lg-3 col-md-6 col-sm-6 col-xs-12">
           <p class="circle-image-title">CHIEF STRATEGY OFFICER (CSO)</p>
-          <img src={glassPaper} class="col-12 col-centered circle-images" />
+          <img src={glassPaper} class=" circle-images" />
         </div>
-        <div class="col-3">
+        <div class="circle-images-individual col-lg-3 col-md-6 col-sm-6 col-xs-12">
           <p class="circle-image-title">CHIEF CUSTOMER OFFICER (CCO)</p>
-          <img src={headset} class="col-12 col-centered circle-images" />
+          <img src={headset} class="circle-images" />
         </div>
       </div>
       <div class="row ending-text">
-        <h4 class="more-simplicit col-10">
+        <h4 class="more-simplicit col-11">
           LET’S MAKE YOUR LIFE MORE SIMPLICIT
         </h4>
-        <button id="button-two" class="let-talk col-1">
+        <button id="solutions-button-two" class="let-talk col-1">
           Let's Talk
         </button>
       </div>
-      <footer>
-        <div id="left-text">
-          <ul id="footer-left-text">
+      <footer id="solutions-foot">
+        <div id="solutions-footer-left-text">
+          <ul id="solutions-footer-list-text">
             <li>New Jersey, USA</li>
             <li>hello@thinksimplicit.com</li>
             <li>(973) 814-4431</li>
             <li>
-              <i class="bi bi-linkedin footer-icons"></i>{" "}
-              <i class="bi bi-twitter footer-icons"></i>{" "}
-              <i class="bi bi-instagram footer-icons"></i>
+              <i class="bi bi-linkedin solutions-footer-icons"></i>{" "}
+              <i class="bi bi-twitter solutions-footer-icons"></i>{" "}
+              <i class="bi bi-instagram solutions-footer-icons"></i>
             </li>
             <br />
             <li>© 2022 Think Simplicit. All rights reserved</li>
           </ul>
         </div>
 
-        <div id="right-text">
+        <div id="solutions-footer-right-text">
           <h4>INSPIRE YOUR THINKING</h4>
           <div class="form-group">
             <input
               type="email"
               class="form-control"
-              id="enter-email"
+              id="solutions-enter-email"
               aria-describedby="emailHelp"
               placeholder="Enter email"
             ></input>
           </div>
-          <button id="subscribe-button">SUBCRIBE</button>
+          <button id="solutions-subscribe-button">SUBSCRIBE</button>
         </div>
       </footer>
     </div>

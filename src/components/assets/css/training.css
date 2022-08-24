@@ -30,12 +30,16 @@
 .let-talk-training {
   position: relative;
   width: 166px;
-  height: 45px;
+  height: 55px;
   color: white;
   background: #ff99a4;
   border: 2px solid rgba(0, 0, 0, 0.45);
   box-sizing: border-box;
   border-radius: 25px;
+}
+
+#training-button-two {
+  right: 18%;
 }
 
 .training-titles {
@@ -84,35 +88,65 @@ footer {
   overflow: auto;
 }
 
-#left-text {
+#training-footer-left-text {
   float: left;
   margin-top: 10px;
 }
 
-#footer-left-text {
+#training-footer-list-text {
   list-style-type: none;
   color: white;
 }
 
-.footer-icons {
+.training-footer-icons {
   padding: 5px;
 }
 
-#right-text {
+#training-footer-right-text {
   float: right;
   color: white;
   margin-right: 20px;
   margin-top: 10px;
 }
 
-#enter-email {
+#training-enter-email {
   border-radius: 0px;
 }
 
-#subscribe-button {
+#training-subscribe-button {
   color: white;
   background: #ff99a4;
   border: #ff99a4;
   text-align: end;
   width: 100%;
+}
+
+@media screen and (max-width: 994px) {
+  .text-between {
+    font-size: 16px
+  }
+  p {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #training-foot {
+    display: flex;
+    flex-flow: column;
+  }
+  #training-footer-left-text {
+    order: 2;
+  }
+  #training-footer-right-text {
+    float: left;
+    margin-left: 32px;
+    order: 1;
+  }
+  #training-enter-email {
+    width: 65%;
+  }
+  #training-subscribe-button {
+    width: 65%;
+  }
 }
