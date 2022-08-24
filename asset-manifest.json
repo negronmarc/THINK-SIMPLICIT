@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/THINK-SIMPLICIT/static/css/main.4226fb09.css",
-    "main.js": "/THINK-SIMPLICIT/static/js/main.f449a0e6.js",
+    "main.css": "/THINK-SIMPLICIT/static/css/main.91d93322.css",
+    "main.js": "/THINK-SIMPLICIT/static/js/main.563acb07.js",
     "static/media/salesfunnel.jpg": "/THINK-SIMPLICIT/static/media/salesfunnel.5d3d47c62953d9cc2b85.jpg",
     "static/media/bridge.jpg": "/THINK-SIMPLICIT/static/media/bridge.cc5425ae8d5f206ab410.jpg",
     "static/media/grouptalk.jpg": "/THINK-SIMPLICIT/static/media/grouptalk.67e18cb99d07cce47f53.jpg",
@@ -20,11 +20,11 @@
     "static/media/bootstrap-icons.woff?": "/THINK-SIMPLICIT/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
     "static/media/bootstrap-icons.woff2?": "/THINK-SIMPLICIT/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
     "index.html": "/THINK-SIMPLICIT/index.html",
-    "main.4226fb09.css.map": "/THINK-SIMPLICIT/static/css/main.4226fb09.css.map",
-    "main.f449a0e6.js.map": "/THINK-SIMPLICIT/static/js/main.f449a0e6.js.map"
+    "main.91d93322.css.map": "/THINK-SIMPLICIT/static/css/main.91d93322.css.map",
+    "main.563acb07.js.map": "/THINK-SIMPLICIT/static/js/main.563acb07.js.map"
   },
   "entrypoints": [
-    "static/css/main.4226fb09.css",
-    "static/js/main.f449a0e6.js"
+    "static/css/main.91d93322.css",
+    "static/js/main.563acb07.js"
   ]
 }
