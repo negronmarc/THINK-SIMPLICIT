@@ -15,6 +15,10 @@
   overflow: auto;
 }
 
+.training-text {
+  font-size: large;
+}
+
 .training-between {
   position: relative;
   padding: 30px;
@@ -40,6 +44,7 @@
 
 #training-button-two {
   right: 18%;
+  width: max-content;
 }
 
 .training-titles {
@@ -125,12 +130,33 @@ footer {
   .text-between {
     font-size: 16px
   }
-  p {
+  .training-text {
     font-size: medium;
+  }
+  #training-button-two {
+    right: 12%;
+    font-size: 12px;
+    width: max-content;
+  }
+  .let-talk-training {
+    height: 50px;
   }
 }
 
 @media screen and (max-width: 620px) {
+  .text-between {
+    font-size: 14px
+  }
+  .training-text {
+    font-size: small;
+  }
+  #training-button-two {
+    right: 10%;
+    font-size: 10px;
+  }
+  .let-talk-training {
+    height: 45px;
+  }
   #training-foot {
     display: flex;
     flex-flow: column;
@@ -148,5 +174,14 @@ footer {
   }
   #training-subscribe-button {
     width: 65%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #training-button-two {
+    right: 0%;
+    display: block;
+    max-width: 300px;
+    margin: auto;
   }
 }
