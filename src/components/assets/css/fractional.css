@@ -64,8 +64,21 @@
   text-align: center;
 }
 
+.let-talk-fractional {
+  position: relative;
+  width: 166px;
+  height: 55px;
+  color: white;
+  background: #ff99a4;
+  border: 2px solid rgba(0, 0, 0, 0.45);
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
 #fractional-button-two {
   right: 18%;
+  width: max-content;
+  bottom: 8px;
 }
 
 footer {
@@ -129,6 +142,13 @@ footer {
   #bridge-text {
     font-size: 18px;
   }
+  #fractional-button-two {
+    right: 13.5%;
+    font-size: 14px;
+  }
+  .more-simplicit {
+    font-size: 22px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -160,6 +180,17 @@ footer {
     margin-left: 10px;
     order: 2;
   }
+  #fractional-button-two {
+    right: 10%;
+    font-size: 12px;
+    bottom: 5px;
+  }
+  .more-simplicit {
+    font-size: 20px;
+  }
+  .let-talk-fractional {
+    height: 45px;
+  }  
 }
 
 @media screen and (max-width: 620px) {
@@ -199,5 +230,41 @@ footer {
   }
   #fractional-subscribe-button {
     width: 65%;
+  }
+  #fractional-button-two {
+    right: 6%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #fractional-button-two {
+    right: 0;
+    font-size: 10px;
+    bottom: 0px;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+  }
+  .more-simplicit {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .fractional-menu {
+    font-size: 11px;
+  }
+  #image-text-fractional {
+    top: 200px;
+  }
+}
+
+@media screen and (max-width: 392px) {
+  #image-text-fractional {
+    top: 170px;
+  }
+  #bridge-text {
+    padding: 20px;
   }
 }
