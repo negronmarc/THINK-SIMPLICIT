@@ -20,7 +20,7 @@ export default function Solutions() {
         </div>
       </div>
       <div class="row">
-        <div class="col-8">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
           <p id="desc-text">
             <i> Think Simplicit </i> focuses on your client journey, and the
             interactions they have during and after the buying process. Our
@@ -31,7 +31,7 @@ export default function Solutions() {
             impactful process for your customers.
           </p>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <h6 id="our-services">
             <b>FRACTIONAL MANAGEMENT SERVICES</b>
           </h6>
@@ -44,8 +44,8 @@ export default function Solutions() {
         </div>
       </div>
       <Router>
-        <Link to= "/Workwithus">
-          <button id="solutions-button-one" class="let-talk">
+        <Link to="/Workwithus">
+          <button id="solutions-button-one" class="let-talk-solutions">
             Let's Talk
           </button>
         </Link>
@@ -70,28 +70,31 @@ export default function Solutions() {
         </p>
       </div>
       <div id="circle-images-container" class="row justify-content-evenly">
-        <div class="circle-images-individual col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="circle-images-individual-one col-lg-3 col-md-6 col-sm-6 col-xs-12">
           <p class="circle-image-title">EXECUTIVE SALES LEADERSHIP</p>
           <img src={shakeHands} class=" circle-images" />
         </div>
-        <div class="circle-images-individual col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="circle-images-individual-two col-lg-3 col-md-6 col-sm-6 col-xs-12">
           <p class="circle-image-title">CHIEF REVENUE OFFICER (CRO)</p>
-          <img src={rocketHand} class=" circle-images" />
+          <img src={rocketHand} class=" circle-images" id="rocket-hand" />
         </div>
-        <div class="circle-images-individual col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="circle-images-individual-three col-lg-3 col-md-6 col-sm-6 col-xs-12">
           <p class="circle-image-title">CHIEF STRATEGY OFFICER (CSO)</p>
           <img src={glassPaper} class=" circle-images" />
         </div>
-        <div class="circle-images-individual col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="circle-images-individual-four col-lg-3 col-md-6 col-sm-6 col-xs-12">
           <p class="circle-image-title">CHIEF CUSTOMER OFFICER (CCO)</p>
           <img src={headset} class="circle-images" />
         </div>
       </div>
       <div class="row ending-text">
-        <h4 class="more-simplicit col-11">
+        <h4 class="more-simplicit col-lg-10 col-md-10 col-sm-10 col-xs-12">
           LET’S MAKE YOUR LIFE MORE SIMPLICIT
         </h4>
-        <button id="solutions-button-two" class="let-talk col-1">
+        <button
+          id="solutions-button-two"
+          class="let-talk-solutions col-lg-1 col-md-1 col-sm-1 col-xs-12"
+        >
           Let's Talk
         </button>
       </div>
