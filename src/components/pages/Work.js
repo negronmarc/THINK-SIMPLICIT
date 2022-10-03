@@ -14,8 +14,10 @@ export default function Work() {
         </div>
 
         <div id="work-header-right-text">
-          <h4 id="touch">GET IN TOUCH</h4>
           <ul id="work-header-list-text">
+            <li>
+              <b>GET IN TOUCH</b>
+            </li>
             <li>hello@simplicitthinking.com</li>
             <li>(973) 814-4431</li>
           </ul>
@@ -32,6 +34,8 @@ export default function Work() {
           loading={<div>Loading...</div>}
         />
       </form>
+
+      <div id="box"></div>
 
       <footer id="work-foot">
         <div id="work-footer-left-text">
@@ -50,7 +54,7 @@ export default function Work() {
         </div>
 
         <div id="work-footer-right-text">
-          <h4>INSPIRE YOUR THINKING</h4>
+          <h4 id="inspire-work">INSPIRE YOUR THINKING</h4>
           <div class="form-group">
             <input
               type="email"

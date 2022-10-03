@@ -1,32 +1,49 @@
 import React from "react";
 import "../assets/css/training.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUserGear } from "@fortawesome/free-solid-svg-icons";
+import { faPeopleArrows } from "@fortawesome/free-solid-svg-icons";
+import { faComments } from "@fortawesome/free-regular-svg-icons";
+import { faStar } from "@fortawesome/free-regular-svg-icons";
 
-export default function Fractional() {
+const gear = <FontAwesomeIcon icon={faUserGear} />;
+const transfer = <FontAwesomeIcon icon={faPeopleArrows} />;
+const consult = <FontAwesomeIcon icon={faComments} />;
+const star = <FontAwesomeIcon icon={faStar} />;
+
+export default function Training() {
   return (
-    <div id="fractional-container">
-      <div id="guide" class="row justify-content-evenly">
-        <a href="#sales-training" class="col-3 fractional-menu">
+    <div id="training-container">
+      <div id="guide-training" class="row justify-content-evenly">
+        <a href="#sales-training" class="col-3 training-menu">
+          <i class="training-icons-top">{gear}</i>
           SALES TRAINING
         </a>
-        <a href="#sales-coaching" class="col-3 fractional-menu">
+        <a href="#sales-coaching" class="col-3 training-menu">
+          <i class="training-icons-top">{transfer}</i>
           SALES COACHING
         </a>
-        <a href="#crm-consulting" class="col-3 fractional-menu">
+        <a href="#crm-consulting" class="col-3 training-menu">
+          <i class="training-icons-top">{consult}</i>
           CRM CONSULTING
         </a>
-        <a href="#brand-experience" class="col-3 fractional-menu">
+        <a href="#brand-experience" class="col-3 training-menu">
+          <i class="training-icons-top">{star}</i>
           BRAND EXPERIENCE
         </a>
       </div>
-      <h5 id="onsite">ONSITE, VIRTUAL, AND HYBRID LED TRAINING AVAILABLE</h5>
+      <h5 id="onsite-training">
+        ONSITE, VIRTUAL, AND HYBRID LED TRAINING AVAILABLE
+      </h5>
       <div id="sales-training">
-        <h5 class="training-titles">SALES TRAINING</h5>
-        <div class="grey-background">
+        <h5 class="training-titles">
+          <i class="training-icons-titles">{gear}</i>SALES TRAINING
+        </h5>
+        <div class="grey-background-training">
           <div id="" class="row justify-content-evenly">
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Consultative Selling</h6>
+              <h6 class="mini-titles-training">Consultative Selling</h6>
               <p class="training-text">
                 We will train your sales team to create value and trust with a
                 prospect while uncovering their core issues. The goal is to show
@@ -35,7 +52,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Virtual Selling</h6>
+              <h6 class="mini-titles-training">Virtual Selling</h6>
               <p class="training-text">
                 Unleash the potential of your sales team by implementing or
                 improving your virtual sales presentations. This course will
@@ -44,7 +61,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Key Account Management</h6>
+              <h6 class="mini-titles-training">Key Account Management</h6>
               <p class="training-text">
                 Key accounts are vital for an organization’s success and
                 stability while providing long-term growth. We will work with
@@ -53,7 +70,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Sales Prospecting</h6>
+              <h6 class="mini-titles-training">Sales Prospecting</h6>
               <p class="training-text">
                 Every organization needs a unique way to attract potential
                 customers with the opportunity to convert them into buyers. We
@@ -64,7 +81,7 @@ export default function Fractional() {
           </div>
           <div id="" class="row justify-content-evenly">
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>No Nonsense Productivity</h6>
+              <h6 class="mini-titles-training">No Nonsense Productivity</h6>
               <p class="training-text">
                 We will review the existing workflow of your sales team and will
                 identify inefficiencies and how to improve overall productivity.
@@ -73,7 +90,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Sales Enablement</h6>
+              <h6 class="mini-titles-training">Sales Enablement</h6>
               <p class="training-text">
                 Sales enablement is a broad term with a wide range of activities
                 and priorities to make your sales teams successful. Every
@@ -82,7 +99,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Tradeshow Selling</h6>
+              <h6 class="mini-titles-training">Tradeshow Selling</h6>
               <p class="training-text">
                 Tradeshows are not only an opportunity to showcase your product
                 or service but a unique moment to engage prospects and current
@@ -91,7 +108,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Onboarding Program</h6>
+              <h6 class="mini-titles-training">Onboarding Program</h6>
               <p class="training-text">
                 The process of how you onboard your sales team can be the
                 difference between success and failure. We strive to develop
@@ -103,7 +120,7 @@ export default function Fractional() {
         </div>
       </div>
       <div class="row training-between">
-        <h4 class="text-between col-lg-10 col-md-10 col-sm-10 col-xs-12">
+        <h4 class="text-between-training col-lg-10 col-md-10 col-sm-10 col-xs-12">
           WE BUILD THE FOUNDATION TO OPTIMIZE <br />
           YOUR SALES POTENTIAL
         </h4>
@@ -115,11 +132,13 @@ export default function Fractional() {
         </button>
       </div>
       <div id="sales-coaching">
-        <h5 class="training-titles">SALES COACHING</h5>
-        <div class="grey-background">
+        <h5 class="training-titles">
+          <i class="training-icons-titles">{transfer}</i>SALES COACHING
+        </h5>
+        <div class="grey-background-training">
           <div id="" class="row justify-content-evenly">
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Individual Coaching</h6>
+              <h6 class="mini-titles-training">Individual Coaching</h6>
               <p class="training-text">
                 We provide exclusive 1-to-1 coaching sessions for the
                 salespeople within your organization. The goal is to provide
@@ -128,7 +147,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Group Coaching</h6>
+              <h6 class="mini-titles-training">Group Coaching</h6>
               <p class="training-text">
                 Based on the size of your team, we can host group coaching
                 workshops that will focus on core problems encountered by your
@@ -137,7 +156,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Deal Coaching</h6>
+              <h6 class="mini-titles-training">Deal Coaching</h6>
               <p class="training-text">
                 This workshop develops the required skills for your sales team
                 to understand deal health by assessing the deal legitimacy and
@@ -146,7 +165,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Account Manager Coaching</h6>
+              <h6 class="mini-titles-training">Account Manager Coaching</h6>
               <p class="training-text">
                 Account management is key to the long-term success of any
                 organization. We create and establish processes that enable your
@@ -157,7 +176,7 @@ export default function Fractional() {
           </div>
           <div id="" class="row justify-content-evenly">
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Rapid Fire Execution</h6>
+              <h6 class="mini-titles-training">Rapid Fire Execution</h6>
               <p class="training-text">
                 Daily, your sales team decides where to focus their energy to
                 maximize their output and impact. We host a workshop that
@@ -166,7 +185,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Cold Calling</h6>
+              <h6 class="mini-titles-training">Cold Calling</h6>
               <p class="training-text">
                 The telephone remains the number one platform for managing
                 communications with prospects and customers regardless of
@@ -175,7 +194,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Coach the Coach</h6>
+              <h6 class="mini-titles-training">Coach the Coach</h6>
               <p class="training-text">
                 Even coaches need a tune-up or an outside perspective from time
                 to time. We can coach your coach and create a workshop built for
@@ -187,7 +206,7 @@ export default function Fractional() {
         </div>
       </div>
       <div class="row training-between">
-        <h4 class="text-between col-lg-10 col-md-10 col-sm-10 col-xs-12">
+        <h4 class="text-between-training col-lg-10 col-md-10 col-sm-10 col-xs-12">
           WE CREATE INTERACTIVE WORKSHOPS TO BUILD <br />
           UPON AN ESTABLISHED FOUNDATION
         </h4>
@@ -199,11 +218,13 @@ export default function Fractional() {
         </button>
       </div>
       <div id="crm-consulting">
-        <h5 class="training-titles">CRM CONSULTING</h5>
-        <div class="grey-background">
+        <h5 class="training-titles">
+          <i class="training-icons-titles">{consult}</i>CRM CONSULTING
+        </h5>
+        <div class="grey-background-training">
           <div id="" class="row justify-content-evenly">
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>CRM Implementation</h6>
+              <h6 class="mini-titles-training">CRM Implementation</h6>
               <p class="training-text">
                 Whether it’s your first time implementing a CRM for your
                 business or switching to new software, we can assist with the
@@ -212,7 +233,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>CRM Integrations</h6>
+              <h6 class="mini-titles-training">CRM Integrations</h6>
               <p class="training-text">
                 Most CRM software is an open API allowing other software
                 applications to integrate. We can assist with integrating
@@ -221,7 +242,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Onboarding & Training</h6>
+              <h6 class="mini-titles-training">Onboarding & Training</h6>
               <p class="training-text">
                 CRM can only be successful if the stakeholders within your
                 organization are utilizing and leveraging the software. We can
@@ -230,7 +251,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Retainer Services</h6>
+              <h6 class="mini-titles-training">Retainer Services</h6>
               <p class="training-text">
                 As your team utilizes CRM, this will lead to questions and
                 changes that an internal stakeholder may not be capable of
@@ -241,7 +262,7 @@ export default function Fractional() {
           </div>
           <div id="" class="row justify-content-evenly">
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Workflow & Sequences</h6>
+              <h6 class="mini-titles-training">Workflow & Sequences</h6>
               <p class="training-text">
                 Workflows and sequences are a form of automation to streamline
                 processes without manual entry. We ensure your team can stay
@@ -250,7 +271,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Management & Admin</h6>
+              <h6 class="mini-titles-training">Management & Admin</h6>
               <p class="training-text">
                 Every organization requires a minimum of one Admin within the
                 CRM system, but if this stakeholder departs, it can disrupt the
@@ -259,7 +280,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Pipeline Development</h6>
+              <h6 class="mini-titles-training">Pipeline Development</h6>
               <p class="training-text">
                 Each organization should have multiple pipelines that meet the
                 needs of each team and keep them working efficiently. Asides
@@ -268,7 +289,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Pipeline Management</h6>
+              <h6 class="mini-titles-training">Pipeline Management</h6>
               <p class="training-text">
                 We will review your pipelines regularly to keep deals from
                 falling through the cracks, ensuring the organization receives
@@ -279,7 +300,7 @@ export default function Fractional() {
         </div>
       </div>
       <div class="row training-between">
-        <h4 class="text-between col-lg-10 col-md-10 col-sm-10 col-xs-12">
+        <h4 class="text-between-training col-lg-10 col-md-10 col-sm-10 col-xs-12">
           WE ASSIST IN CREATING A HIGH PERFORMING CRM <br />
           PROCESSES TO OPTIMIZE SALES & MARKETING
         </h4>
@@ -291,11 +312,13 @@ export default function Fractional() {
         </button>
       </div>
       <div id="brand-experience">
-        <h5 class="training-titles">BRAND EXPERIENCE</h5>
-        <div class="grey-background">
+        <h5 class="training-titles">
+          <i class="training-icons-titles">{star}</i>BRAND EXPERIENCE
+        </h5>
+        <div class="grey-background-training">
           <div id="" class="row justify-content-evenly">
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Tell Your Story</h6>
+              <h6 class="mini-titles-training">Tell Your Story</h6>
               <p class="training-text">
                 We will curate a story that reflects your product's mission
                 statement. We create compelling and impactful stories that
@@ -304,7 +327,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Presentation Development</h6>
+              <h6 class="mini-titles-training">Presentation Development</h6>
               <p class="training-text">
                 Do you have a slide deck presentation for your prospects? We
                 will review the slide deck and provide feedback to improve the
@@ -313,7 +336,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Customer Journey</h6>
+              <h6 class="mini-titles-training">Customer Journey</h6>
               <p class="training-text">
                 We review your existing customer journey and build a wireframe,
                 which allows us to identify the most impactful areas and where
@@ -321,7 +344,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Product Positioning</h6>
+              <h6 class="mini-titles-training">Product Positioning</h6>
               <p class="training-text">
                 We can increase the sales of your product or service by
                 improving how it’s communicated to your audience. By improving
@@ -332,7 +355,7 @@ export default function Fractional() {
           </div>
           <div id="" class="row justify-content-evenly">
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Customer Experience</h6>
+              <h6 class="mini-titles-training">Customer Experience</h6>
               <p class="training-text">
                 The various ways a customer interacts with a brand increase the
                 opportunity for a customer to have a poor experience. We audit
@@ -341,7 +364,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Sales & Marketing Alignment</h6>
+              <h6 class="mini-titles-training">Sales & Marketing Alignment</h6>
               <p class="training-text">
                 The sales and marketing teams need to work in unison to ensure
                 maximum efficiency and effectiveness for your customers. We
@@ -350,7 +373,7 @@ export default function Fractional() {
               </p>
             </section>
             <section class="col-lg-3 col-md-3 col-sm-12">
-              <h6>Creating Influence</h6>
+              <h6 class="mini-titles-training">Creating Influence</h6>
               <p class="training-text">
                 Your marketing stories should influence your customers and have
                 them react with emotion. We make an impactful experience by
@@ -362,7 +385,7 @@ export default function Fractional() {
         </div>
       </div>
       <div class="row training-between">
-        <h4 class="text-between col-lg-10 col-md-10 col-sm-10 col-xs-12">
+        <h4 class="text-between-training col-lg-10 col-md-10 col-sm-10 col-xs-12">
           WE DEVELOP A CUSTOMER JOURNEY THAT ENABLES <br />
           YOUR BRAND TO HAVE THE BIGGEST IMPACT
         </h4>
@@ -389,7 +412,7 @@ export default function Fractional() {
           </ul>
         </div>
         <div id="training-footer-right-text">
-          <h4>INSPIRE YOUR THINKING</h4>
+          <h4 id="training-inspire">INSPIRE YOUR THINKING</h4>
           <div class="form-group">
             <input
               type="email"
