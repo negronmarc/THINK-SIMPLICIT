@@ -5,11 +5,12 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 function Hamburger({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <div id="ham-menu">
       <nav class="navbar col-right">
         <div class="container-fluid">
           <button
-            class="navbar-toggler ms-auto btn-outline-light justify-content-between "
+            class="navbar-toggler ms-auto justify-content-between"
+            id="ham-button"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarToggleExternalContent"
@@ -26,12 +27,10 @@ function Hamburger({ currentPage, handlePageChange }) {
               id="navigation-burger"
               onClick={() => handlePageChange("Solutions")}
               className={
-                currentPage === "Solutions"
-                  ? "nav-link active bg-dark"
-                  : "nav-link"
+                currentPage === "Solutions" ? "nav-link active" : "nav-link"
               }
             >
-              Solutions
+              Home
             </a>
           </button>
           <button class="btn btn-link m-0 text-decoration-none">
@@ -40,9 +39,7 @@ function Hamburger({ currentPage, handlePageChange }) {
               id="navigation-burger"
               onClick={() => handlePageChange("Fractional")}
               className={
-                currentPage === "Fractional"
-                  ? "nav-link active bg-dark"
-                  : "nav-link"
+                currentPage === "Fractional" ? "nav-link active" : "nav-link"
               }
             >
               Fractional
@@ -54,9 +51,7 @@ function Hamburger({ currentPage, handlePageChange }) {
               id="navigation-burger"
               onClick={() => handlePageChange("Training")}
               className={
-                currentPage === "Training"
-                  ? "nav-link active bg-dark"
-                  : "nav-link"
+                currentPage === "Training" ? "nav-link active" : "nav-link"
               }
             >
               Training
@@ -69,9 +64,7 @@ function Hamburger({ currentPage, handlePageChange }) {
               id="navigation-burger"
               onClick={() => handlePageChange("Workwithus")}
               className={
-                currentPage === "Workwithus"
-                  ? "nav-link active bg-dark"
-                  : "nav-link"
+                currentPage === "Workwithus" ? "nav-link active" : "nav-link"
               }
             >
               Work With Us
