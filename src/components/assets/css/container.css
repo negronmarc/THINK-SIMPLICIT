@@ -1,29 +1,52 @@
 #header {
   background-color: black;
-  color: white;
   padding: 6px;
   display: flex;
 }
 
-#website-name {
+#title-logo {
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 50px;
   z-index: +3;
-  font-size: 50px;
 }
 
 #nav {
   position: absolute;
   right: 10px;
-  margin-top: 22px;
+  margin-top: 28px;
+}
+
+#navigation {
+  position: relative;
+  top: 2px;
+}
+
+.dropdown-menu.show {
+  font-family: "Bebas Neue";
+  font-size: large;
+  background-color: white;
+}
+
+.dropdown-menu a {
+  color: black;
+}
+
+.dropdown-menu a:hover {
+  color: #ff99a4;
+  background-color: rgb(228, 228, 228);
 }
 
 #hamburger {
+  font-family: "Bebas Neue";
   text-align: center;
   z-index: +2;
-  width: 180px;
-  background-color: black;
+  width: 130.8px;
   position: absolute;
   right: 0px;
-  margin-top: -5px;
+  margin-top: 5px;
+  margin-right: 0px;
   visibility: hidden;
 }
 
@@ -34,17 +57,90 @@ body {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 767px) {
-  #website-name {
-    font-size: 35px;
+@media only screen and (min-width: 1530px) {
+  #title-logo {
+    height: 65px;
   }
-
   #nav {
-    margin-top: 10px;
+    margin-top: 40px;
+  } 
+  .dropdown-menu.show {
+    font-size: x-large;
+  }
+  #dropdown-button {
+    font-size: 24px;
+  }
+  #navigation {
+    position: relative;
+    top: 4px;
+    font-size: 24px;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 2030px) {
+  #title-logo {
+    height: 80px;
+  }
+  #nav {
+    margin-top: 42px;
+  }
+  #dropdown-button {
+    font-size: 30px;
+  }
+  #navigation {
+    position: relative;
+    top: 3px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 952px) {
+  #title-logo {
+    height: 45px;
+  }
+  #nav {
+    margin-top: 26px;
+  }
+  #navigation {
+    position: relative;
+    top: 0px;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  #title-logo {
+    height: 40px;
+  }
+  #nav {
+    margin-top: 24px;
+  }
+  .dropdown-menu.show {
+    font-size: medium;
+  }
+  #navigation {
+    position: relative;
+    top: -2.5px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  #title-logo {
+    height: 34px;
+  }
+  #nav {
+    margin-top: 21px;
+  }
+  #navigation {
+    position: relative;
+    top: -2.8px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  #title-logo {
+    height: 30px;
+    margin-left: 15px;
+  }
   #nav {
     visibility: hidden;
   }

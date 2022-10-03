@@ -12,7 +12,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             href="#Solutions"
             onClick={() => handlePageChange("Solutions")}
           >
-            HOME PAGE
+            HOME
           </Dropdown.Item>
           <Dropdown.Item
             href="#Fractional"

@@ -1,34 +1,40 @@
 #thinking-woman {
   position: relative;
-  height: 814px;
-  left: 0px;
+  height: 650px;
+  object-fit: cover;
+  object-position: 0 90%;
 }
 
-#image-text {
-  top: 420px;
+#thinking-container {
+  position: relative;
+  text-align: center;
 }
 
 #think-simple-text {
   font-family: "Source Sans 3";
   font-style: oblique;
   font-weight: bold;
+  color: white;
   background-size: auto;
   background-color: black;
-  padding: 10px;
-  opacity: 0.8;
-  margin-left: 200px;
-  margin-right: 200px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 8px;
+  font-size: 42px;
+  position: absolute;
+  top: 38%;
+  left: 25%;
+  right: 25%;
 }
 
 #desc-text {
   position: relative;
   height: 117px;
-  left: 30px;
+  left: 20px;
   font-family: "Source Sans 3";
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  margin-top: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 15px;
 }
 
 #our-services {
@@ -36,36 +42,33 @@
   height: 18px;
   right: 10px;
   font-family: "Bebas Neue";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 29px;
+  font-size: 18px;
   text-align: right;
-  margin-top: 10px;
+  margin-top: 20px;
+  font-weight: 100;
+  margin-bottom: -0.1px;
+  padding-bottom: 22px;
 }
 
 #services {
   position: relative;
-  height: 97px;
+  height: 5px;
   right: 10px;
   font-family: "Source Sans 3";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 28px;
   text-align: right;
   list-style-type: none;
+  line-height: 1.4;
 }
 
 .let-talk-solutions {
   position: relative;
-  width: 166px;
-  height: 45px;
   color: white;
   background: #ff99a4;
   border: 2px solid rgba(0, 0, 0, 0.45);
   box-sizing: border-box;
   border-radius: 25px;
+  font-family: "Bebas Neue";
 }
 
 .let-talk-solutions:hover {
@@ -74,17 +77,19 @@
 }
 
 #solutions-button-one {
-  left: 30px;
-  margin-top: 25px;
+  left: 20px;
+  margin-top: 5px;
+  font-size: 20px;
+  width: 160px;
+  height: 38px;
 }
 
 #what-story {
   position: relative;
   font-family: "Bebas Neue";
-  font-size: 22px;
+  font-size: 32px;
   text-align: center;
   margin-top: 20px;
-  font-weight: bolder;
 }
 
 #group-talk {
@@ -100,7 +105,8 @@
   position: relative;
   padding: 20px;
   font-family: "Source Sans 3";
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 #circle-images-container {
@@ -111,35 +117,41 @@
 .circle-image-title {
   position: relative;
   text-align: center;
-  font-weight: bold;
+  font-family: "Bebas Neue";
+  font-size: 28px;
 }
 
 .circle-images {
   position: relative;
   height: 120%;
-  width: 300px;
+  width: 100%;
   border-radius: 50%;
-  padding: 10px;
+  padding: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  object-position: 60%;
 }
 
-.ending-text {
+.solutions-ending-text {
   position: relative;
   padding: 30px;
+  font-family: "Bebas Neue";
 }
 
-.more-simplicit {
+.solutions-more-simplicit {
   padding: 5px;
   text-align: center;
-  font-size: 26px;
-  font-weight: bold;
+  font-size: 34px;
 }
 
 #solutions-button-two {
-  right: 18%;
-  font-size: 18px;
-  height: 32px;
-  width: 150px;
-  top: 6px;
+  right: 22%;
+  font-size: 20px;
+  height: 38px;
+  width: 160px;
+  top: 5px;
 }
 
 footer {
@@ -160,6 +172,7 @@ footer {
 
 .solutions-footer-icons {
   padding: 5px;
+  visibility: hidden;
 }
 
 #solutions-footer-right-text {
@@ -169,8 +182,13 @@ footer {
   margin-top: 10px;
 }
 
+#solutions-inspire {
+  display: none;
+}
+
 #solutions-enter-email {
   border-radius: 0px;
+  display: none;
 }
 
 #solutions-subscribe-button {
@@ -179,274 +197,963 @@ footer {
   border: #ff99a4;
   text-align: end;
   width: 100%;
+  display: none;
 }
 
-@media screen and (max-width: 1108px) {
+@media screen and (min-width: 1250px) {
+  #thinking-woman {
+    height: 680px;
+    object-position: 0 80%;
+  }
+  #think-simple-text {
+    padding: 8px;
+    font-size: 44px;
+    top: 38%;
+  }
+  #desc-text {
+    font-size: 21px;
+    margin-bottom: -0.1px;
+  }
+  #our-services {
+    font-size: 20px;
+  }
+  #services {
+    font-size: 15px;
+  }
+  #solutions-button-one {
+    margin-top: 25px;
+    font-size: 21px;
+    width: 160px;
+    height: 38px;
+  }
+  #what-story {
+    font-size: 34px;
+    margin-top: 20px;
+  }
+  #group-talk {
+    max-width: 100%;
+    height: 360px;
+    object-position: 0 25%;
+  }
+  #customer-text {
+    font-size: 21px;
+  }
+  .circle-image-title {
+    font-size: 30px;
+  }
   .circle-images {
     height: 110%;
     width: 100%;
-    padding: 5px;
+    padding: 4%;
+    object-fit: cover;
+    object-position: 60%;
   }
-  #circle-images-container {
-    position: relative;
-    margin-bottom: 90px;
+  .solutions-ending-text {
+    padding: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
   }
-  .circle-image-title {
-    font-size: 14.5px;
+  .solutions-more-simplicit {
+    font-size: 36px;
+  }
+  #solutions-button-two {
+    right: 22.8%;
+    font-size: 21px;
+    height: 38px;
+    width: 160px;
+    top: 6px;
+  }
+}
+
+@media screen and (min-width: 1420px) {
+  #thinking-woman {
+    height: 700px;
+    object-position: 0 60%;
+  }
+  #think-simple-text {
+    padding: 8px;
+    font-size: 48px;
+    top: 38%;
   }
   #desc-text {
-    font-size: 18px;
-  }
-  #customer-text {
-    font-size: 18px;
+    font-size: 24px;
+    margin-bottom: -0.1px;
   }
   #our-services {
-    font-size: 14.5px;
+    font-size: 23px;
+  }
+  #services {
+    font-size: 18px;
+  }
+  #solutions-button-one {
+    margin-top: 25px;
+    font-size: 24px;
+    width: 180px;
+    height: 40px;
+  }
+  #what-story {
+    font-size: 38px;
+    margin-top: 20px;
+  }
+  #group-talk {
+    max-width: 100%;
+    height: 380px;
+    object-position: 0 25%;
+  }
+  #customer-text {
+    font-size: 24px;
+  }
+  .circle-image-title {
+    font-size: 33px;
+  }
+  .circle-images {
+    height: 110%;
+    width: 100%;
+    padding: 4%;
+    object-fit: cover;
+    object-position: 60%;
+  }
+  .solutions-ending-text {
+    padding: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .solutions-more-simplicit {
+    font-size: 40px;
+  }
+  #solutions-button-two {
+    right: 24%;
+    font-size: 24px;
+    height: 40px;
+    width: 180px;
+    top: 8px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  #thinking-woman {
+    height: 850px;
+    object-position: 0 60%;
+  }
+  #think-simple-text {
+    padding: 8px;
+    font-size: 50px;
+    top: 38%;
+  }
+  #desc-text {
+    font-size: 26px;
+    margin-bottom: -0.1px;
+  }
+  #our-services {
+    font-size: 25px;
+  }
+  #services {
+    font-size: 20px;
+  }
+  #solutions-button-one {
+    margin-top: 25px;
+    font-size: 26px;
+    width: 200px;
+    height: 45px;
+  }
+  #what-story {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  #group-talk {
+    max-width: 100%;
+    height: 420px;
+    object-position: 0 25%;
+  }
+  #customer-text {
+    font-size: 26px;
+  }
+  .circle-image-title {
+    font-size: 35px;
+  }
+  .circle-images {
+    height: 110%;
+    width: 100%;
+    padding: 4%;
+    object-fit: cover;
+    object-position: 60%;
+  }
+  .solutions-ending-text {
+    padding: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .solutions-more-simplicit {
+    font-size: 42px;
+  }
+  #solutions-button-two {
+    right: 26%;
+    font-size: 26px;
+    height: 45px;
+    width: 200px;
+    top: 6px;
+  }
+}
+
+@media screen and (min-width: 2130px) {
+  #thinking-woman {
+    height: 950px;
+    object-position: 0 50%;
+  }
+  #think-simple-text {
+    padding: 8px;
+    font-size: 50px;
+    top: 42%;
+  }
+  #desc-text {
+    font-size: 32px;
+    margin-bottom: -0.1px;
+    line-height: 28px;
+  }
+  #our-services {
+    font-size: 30px;
+    padding-bottom: 40px;
+  }
+  #services {
+    font-size: 24px;
+  }
+  #solutions-button-one {
+    margin-top: 25px;
+    font-size: 28px;
+    width: 220px;
+    height: 48px;
+  }
+  #what-story {
+    font-size: 44px;
+    margin-top: 40px;
+  }
+  #group-talk {
+    max-width: 100%;
+    height: 480px;
+    object-position: 0 25%;
+  }
+  #customer-text {
+    font-size: 32px;
+    line-height: 28px;
+  }
+  .circle-image-title {
+    font-size: 40px;
+  }
+  .circle-images {
+    height: 110%;
+    width: 100%;
+    padding: 4%;
+    object-fit: cover;
+    object-position: 60%;
+  }
+  .solutions-ending-text {
+    padding: 0px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .solutions-more-simplicit {
+    font-size: 46px;
+  }
+  #solutions-button-two {
+    right: 28%;
+    font-size: 28px;
+    height: 48px;
+    width: 220px;
+    top: 6px;
+  }
+}
+
+@media screen and (max-width: 1142px) {
+  #thinking-woman {
+    height: 620px;
+    object-position: 0 90%;
+  }
+  #think-simple-text {
+    padding: 8px;
+    font-size: 38.5px;
+    top: 38%;
+  }
+  #desc-text {
+    font-size: 17px;
+    margin-bottom: -0.1px;
+  }
+  #our-services {
+    font-size: 17px;
   }
   #services {
     font-size: 13px;
   }
-  #think-simple-text {
-    font-size: 30px;
+  #solutions-button-one {
+    margin-top: 15px;
+    font-size: 19px;
+    width: 150px;
+    height: 36px;
   }
   #what-story {
-    font-size: 21px;
+    font-size: 31px;
+    margin-top: 20px;
   }
   #group-talk {
-    height: 330px;
+    max-width: 100%;
+    height: 320px;
+    object-position: 0 25%;
   }
-  #solutions-button-one {
-    font-size: 15px;
-    height: 40px;
-    width: 140px;
+  #customer-text {
+    font-size: 17px;
   }
-  .more-simplicit {
-    font-size: 22.5px;
+  .circle-image-title {
+    font-size: 25px;
+  }
+  .circle-images {
+    height: 110%;
+    width: 100%;
+    padding: 4%;
+    object-fit: cover;
+    object-position: 60%;
+  }
+  .solutions-ending-text {
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+  .solutions-more-simplicit {
+    font-size: 33px;
   }
   #solutions-button-two {
-    right: 19%;
+    right: 20%;
+    font-size: 19px;
+    height: 36px;
+    width: 150px;
+    top: 6px;
+  }
+}
+
+@media screen and (max-width: 1028px) {
+  #thinking-woman {
+    height: 580px;
+    object-position: 0 90%;
+  }
+  #think-simple-text {
+    padding: 8px;
+    font-size: 36px;
+    top: 40%;
+  }
+  #desc-text {
     font-size: 16px;
-    height: 28px;
-    width: 120px;
+  }
+  #our-services {
+    font-size: 16px;
+  }
+  #services {
+    font-size: 12px;
+  }
+  #solutions-button-one {
+    margin-top: 20px;
+    font-size: 18px;
+    width: 140px;
+    height: 34px;
+  }
+  #what-story {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  #group-talk {
+    max-width: 100%;
+    height: 290px;
+    object-position: 0 25%;
+  }
+  #customer-text {
+    font-size: 16px;
+  }
+  .circle-image-title {
+    font-size: 24px;
+  }
+  .circle-images {
+    height: 110%;
+    width: 110%;
+    padding: 4%;
+    object-fit: cover;
+    object-position: 60%;
+  }
+  .solutions-ending-text {
+    padding-bottom: 20px;
+  }
+  .solutions-more-simplicit {
+    font-size: 32px;
+  }
+  #solutions-button-two {
+    right: 20%;
+    font-size: 18px;
+    height: 34px;
+    width: 140px;
     top: 6px;
   }
 }
 
 @media screen and (max-width: 991px) {
-  #image-text {
-    top: 340px;
+  #think-simple-text {
+    font-size: 33.5px;
   }
+  .circle-image-title {
+    font-size: 28px;
+  }
+  .circle-images {
+    height: 110%;
+    width: 70%;
+    padding: 2%;
+    object-fit: cover;
+    object-position: 60%;
+  }
+  .circle-images-individual-one {
+    padding-bottom: 100px;
+  }
+  .circle-images-individual-two {
+    padding-bottom: 100px;
+  }
+  #solutions-button-two {
+    right: 19%;
+  }
+}
+
+@media screen and (max-width: 856px) {
   #thinking-woman {
-    height: 614px;
+    height: 500px;
+    object-position: 0 90%;
   }
   #think-simple-text {
-    font-size: 24px;
+    padding: 8px;
+    font-size: 30px;
+    top: 40%;
   }
   #desc-text {
-    font-size: 16px;
+    font-size: 14px;
+  }
+  #our-services {
+    font-size: 14.5px;
+    margin-bottom: -5px;
+  }
+  #services {
+    font-size: 11px;
   }
   #solutions-button-one {
-    font-size: 14px;
-    height: 35px;
+    margin-top: 20px;
+    font-size: 16px;
     width: 120px;
+    height: 30px;
+  }
+  #what-story {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  #group-talk {
+    max-width: 100%;
+    height: 250px;
+    object-position: 0 25%;
+  }
+  #customer-text {
+    font-size: 14px;
+  }
+  .circle-image-title {
+    font-size: 24px;
+  }
+  .circle-images {
+    height: 110%;
+    width: 70%;
+    padding: 2%;
+    object-fit: cover;
+    object-position: 60%;
+  }
+  .circle-images-individual-one {
+    padding-bottom: 100px;
+  }
+  .circle-images-individual-two {
+    padding-bottom: 100px;
+  }
+  .solutions-ending-text {
+    padding-bottom: 20px;
+  }
+  .solutions-more-simplicit {
+    font-size: 30px;
+  }
+  #solutions-button-two {
+    right: 16.8%;
+    font-size: 17px;
+    height: 32px;
+    width: 120px;
+    top: 7px;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  #thinking-woman {
+    height: 450px;
+    object-position: 0 90%;
+  }
+  #think-simple-text {
+    padding: 8px;
+    font-size: 26px;
+    top: 42%;
+    left: 20%;
+    right: 20%;
+  }
+  #desc-text {
+    font-size: 12px;
+  }
+  #our-services {
+    font-size: 13.5px;
+  }
+  #services {
+    font-size: 10.5px;
+  }
+  #solutions-button-one {
+    margin-top: 20px;
+    font-size: 14px;
+    width: 100px;
+    height: 26px;
+  }
+  #what-story {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  #group-talk {
+    max-width: 100%;
+    height: 220px;
+    object-position: 0 25%;
+  }
+  #customer-text {
+    font-size: 12px;
+  }
+  .circle-image-title {
+    font-size: 23px;
+  }
+  .circle-images {
+    height: 110%;
+    width: 70%;
+    padding: 2%;
+    object-fit: cover;
+    object-position: 60%;
+  }
+  .circle-images-individual-one {
+    padding-bottom: 100px;
+  }
+  .circle-images-individual-two {
+    padding-bottom: 100px;
+  }
+  .solutions-ending-text {
+    padding-bottom: 20px;
+  }
+  .solutions-more-simplicit {
+    font-size: 28px;
+  }
+  #solutions-button-two {
+    right: 16.8%;
+    font-size: 15px;
+    height: 28px;
+    width: 100px;
+    top: 7px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #thinking-woman {
+    height: 400px;
+    object-position: 0 90%;
+  }
+  #think-simple-text {
+    padding: 8px;
+    font-size: 24px;
+    top: 42%;
+    left: 20%;
+    right: 20%;
+  }
+  #desc-text {
+    font-size: 10.5px;
+  }
+  #our-services {
+    font-size: 12px;
+    margin-bottom: -8px;
+  }
+  #services {
+    font-size: 10px;
+  }
+  #solutions-button-one {
+    margin-top: 20px;
+    font-size: 12.8px;
+    width: 95px;
+    height: 24px;
+  }
+  #what-story {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  #group-talk {
+    max-width: 100%;
+    height: 215px;
+    object-position: 0 25%;
+  }
+  #customer-text {
+    font-size: 10.5px;
+  }
+  .circle-image-title {
+    font-size: 20px;
+  }
+  .circle-images {
+    height: 110%;
+    width: 70%;
+    padding: 2%;
+    object-fit: cover;
+    object-position: 60%;
+  }
+  .circle-images-individual-one {
+    padding-bottom: 100px;
+  }
+  .circle-images-individual-two {
+    padding-bottom: 100px;
+  }
+  .solutions-ending-text {
+    padding-bottom: 20px;
+  }
+  .solutions-more-simplicit {
+    font-size: 25px;
+  }
+  #solutions-button-two {
+    right: 15%;
+    font-size: 13.5px;
+    height: 24px;
+    width: 90px;
+    top: 7px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #thinking-woman {
+    height: 350px;
+  }
+  #think-simple-text {
+    padding: 8px;
+    font-size: 20px;
+    top: 42%;
+    left: 20%;
+    right: 20%;
+  }
+  #desc-text {
+    font-size: 12.8px;
+    left: 0px;
+    margin-left: 10px;
+    margin-bottom: -5px;
   }
   #our-services {
     font-size: 13px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
   }
   #services {
-    font-size: 12px;
-  }
-  #what-story {
-    font-size: 19px;
-  }
-  #group-talk {
-    height: 310px;
-  }
-  #customer-text {
-    font-size: 16px;
-  }
-  .circle-images-individual-three,
-  .circle-images-individual-four {
-    padding-top: 90px;
-    padding-bottom: 45px;
-  }
-  .circle-image-title {
-    font-size: 14px;
-  }
-  .circle-images {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 115%;
-    width: 70%;
-  }
-  #circle-images-container {
-    margin-bottom: 30px;
-  }
-  .more-simplicit {
-    font-size: 20px;
-  }
-  #solutions-button-two {
-    right: 16%;
-    font-size: 15px;
-    height: 26.5px;
-    width: 115px;
-    top: 5px;
-  }
-}
-
-@media screen and (max-width: 870px) {
-  #image-text {
-    top: 280px;
-  }
-  #thinking-woman {
-    height: 540px;
-  }
-  #think-simple-text {
-    font-size: 23px;
-  }
-  #desc-text {
-    font-size: 14px;
-  }
-  #our-services {
-    font-size: 11.5px;
-  }
-  #services {
+    margin-left: -12px;
     font-size: 11px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 60px;
   }
   #solutions-button-one {
-    font-size: 12px;
-    height: 32px;
-    width: 110px;
+    left: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
   }
   #what-story {
     font-size: 18px;
   }
   #group-talk {
-    height: 280px;
+    height: 210px;
+    border-radius: 0px;
   }
   #customer-text {
-    font-size: 14px;
-    padding: 20px 20px 5px 20px;
+    font-size: 12.8px;
+    padding: 20px 20px 2px 20px;
   }
   .circle-image-title {
-    font-size: 13.5px;
+    font-size: 21px;
   }
-  .more-simplicit {
-    font-size: 18px;
+  .circle-images {
+    height: 200px;
+    width: 80%;
+    border-radius: 0;
+    object-position: 60% 15%;
+    padding: 0px;
+  }
+  .circle-images-individual-one {
+    padding-bottom: 0px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+  }
+  .circle-images-individual-two {
+    padding-bottom: 0px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+  }
+  .circle-images-individual-three {
+    padding-bottom: 0px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+  }
+  .circle-images-individual-four {
+    padding-bottom: 0px;
+    margin-bottom: -100px;
+  }
+  .solutions-more-simplicit {
+    font-size: 25px;
   }
   #solutions-button-two {
-    right: 12%;
+    right: 0%;
+    display: block;
+    margin: auto;
     font-size: 14px;
-    height: 24px;
-    width: 110px;
-    top: 7px;
+    height: 26px;
+    width: 100px;
+    top: 0px;
   }
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 460px) {
   #thinking-woman {
-    height: 460px;
-  }
-  #image-text {
-    top: 240px;
+    height: 320px;
   }
   #think-simple-text {
-    font-size: 20px;
-    width: fit-content;
-    height: fit-content;
-    margin-left: 150px;
-    margin-right: 150px;
+    padding: 8px;
+    font-size: 18px;
+    top: 42%;
+    left: 20%;
+    right: 20%;
   }
   #desc-text {
-    font-size: 12.5px;
+    font-size: 12.8px;
+    left: 0px;
+    margin-left: 10px;
     margin-bottom: 25px;
   }
   #our-services {
-    font-size: 9px;
+    font-size: 13px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
   }
   #services {
-    font-size: 8.5px;
+    margin-left: -12px;
+    font-size: 11px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 60px;
   }
   #solutions-button-one {
-    font-size: 11px;
-    height: 26px;
-    width: 100px;
+    left: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
   }
   #what-story {
-    font-size: 16.5px;
+    font-size: 18px;
   }
   #group-talk {
-    height: 240px;
+    height: 180px;
+    border-radius: 0px;
   }
   #customer-text {
-    font-size: 12.5px;
+    font-size: 12.8px;
     padding: 20px 20px 2px 20px;
   }
   .circle-image-title {
-    font-size: 12.6px;
+    font-size: 21px;
   }
-  .more-simplicit {
-    font-size: 16px;
+  .circle-images {
+    height: 170px;
+    width: 80%;
+    border-radius: 0;
+    object-position: 60% 15%;
+    padding: 0px;
+  }
+  .circle-images-individual-one {
+    padding-bottom: 0px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+  }
+  .circle-images-individual-two {
+    padding-bottom: 0px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+  }
+  .circle-images-individual-three {
+    padding-bottom: 0px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+  }
+  .circle-images-individual-four {
+    padding-bottom: 0px;
+    margin-bottom: -100px;
+  }
+  .solutions-more-simplicit {
+    font-size: 25px;
   }
   #solutions-button-two {
-    right: 8%;
-    font-size: 12px;
-    height: 24px;
-    width: max-content;
-    top: 7px;
+    right: 0%;
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    height: 26px;
+    width: 100px;
+    top: 0px;
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 392px) {
   #thinking-woman {
-    height: 400px;
-  }
-  #image-text {
-    top: 220px;
+    height: 300px;
   }
   #think-simple-text {
-    font-size: 18px;
-    width: fit-content;
-    height: fit-content;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding: 8px;
+    font-size: 16px;
+    top: 42%;
+    left: 20%;
+    right: 20%;
   }
   #desc-text {
-    font-size: 11.8px;
+    font-size: 11.5px;
+    left: 0px;
+    margin-left: 10px;
+    margin-bottom: 25px;
   }
   #our-services {
-    font-size: 8.5px;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
   }
   #services {
-    font-size: 8.5px;
+    margin-left: -12px;
+    font-size: 10.8px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 60px;
+  }
+  #solutions-button-one {
+    left: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    width: 82px;
+    height: 22px;
   }
   #what-story {
-    font-size: 15px;
+    font-size: 16px;
   }
   #group-talk {
-    height: 220px;
+    height: 160px;
+    border-radius: 0px;
   }
   #customer-text {
-    font-size: 11.8px;
+    font-size: 11.5px;
     padding: 20px 20px 2px 20px;
   }
   .circle-image-title {
-    font-size: 12px;
+    font-size: 19px;
   }
-  .more-simplicit {
-    font-size: 14px;
+  .circle-images {
+    height: 150px;
+    width: 80%;
+    border-radius: 0;
+    object-position: 60% 15%;
+    padding: 0px;
+  }
+  .circle-images-individual-one {
+    padding-bottom: 0px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+  }
+  .circle-images-individual-two {
+    padding-bottom: 0px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+  }
+  .circle-images-individual-three {
+    padding-bottom: 0px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+  }
+  .circle-images-individual-four {
+    padding-bottom: 0px;
+    margin-bottom: -100px;
+  }
+  .solutions-more-simplicit {
+    font-size: 22px;
   }
   #solutions-button-two {
-    right: 4%;
-    font-size: 12px;
+    right: 0%;
+    display: block;
+    margin: auto;
+    font-size: 12.5px;
+    height: 24px;
+    width: 90px;
+    top: 0px;
   }
+}
+
+@media screen and (max-width: 353px) {
+  #thinking-woman {
+    height: 280px;
+  }
+  #think-simple-text {
+    padding: 8px;
+    font-size: 16px;
+    top: 42%;
+    left: 15%;
+    right: 15%;
+  }
+  #desc-text {
+    font-size: 11.5px;
+    left: 0px;
+    margin-left: 10px;
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (max-width: 305px) {
+  #thinking-woman {
+    height: 260px;
+  }
+  #think-simple-text {
+    padding: 8px;
+    font-size: 15px;
+    top: 42%;
+    left: 10%;
+    right: 10%;
+  }
+  #desc-text {
+    font-size: 11.5px;
+    left: 0px;
+    margin-left: 10px;
+    margin-bottom: 65px;
+  }
+}
+
+/* FOOTER MQ */
+
+@media only screen and (min-width: 1530px) {
+  #solutions-footer-left-text {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 2030px) {
+  #solutions-footer-left-text {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
   #solutions-foot {
     display: flex;
     flex-flow: column;
   }
   #solutions-footer-left-text {
     order: 2;
+    font-size: 15px;
   }
   #solutions-footer-right-text {
     float: left;
@@ -461,87 +1168,24 @@ footer {
   }
 }
 
-@media screen and (max-width: 575px) {
-  #thinking-woman {
-    height: 340px;
+@media only screen and (max-width: 520px) {
+  #solutions-foot {
+    display: flex;
+    flex-flow: column;
   }
-  #image-text {
-    top: 180px;
+  #solutions-footer-left-text {
+    order: 2;
+    font-size: 12px;
   }
-  #think-simple-text {
-    font-size: 16px;
-    width: fit-content;
-    height: fit-content;
-    margin-left: 100px;
-    margin-right: 100px;
+  #solutions-footer-right-text {
+    float: left;
+    margin-left: 32px;
+    order: 1;
   }
-  #desc-text {
-    font-size: 11px;
-    left: 0px;
-    margin-left: 10px;
-    margin-bottom: 0px;
-    padding-bottom: 10px;
+  #solutions-enter-email {
+    width: 65%;
   }
-  #our-services {
-    font-size: 8.5px;
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 20px;
-  }
-  #services {
-    font-size: 8.5px;
-    text-align: left;
-  }
-  #solutions-button-one {
-    left: 0px;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
-  #what-story {
-    font-size: 14px;
-  }
-  #group-talk {
-    height: 180px;
-  }
-  #customer-text {
-    font-size: 11px;
-    padding: 20px 20px 2px 20px;
-  }
-  .circle-image-title {
-    font-size: 11px;
-  }
-  .circle-images {
-    height: 140%;
-    width: 55%;
-  }
-  .circle-images-individual-one {
-    padding-top: 0px;
-    padding-bottom: 125px;
-  }
-  .circle-images-individual-two {
-    padding-top: 0px;
-    padding-bottom: 145px;
-  }
-  .circle-images-individual-three {
-    padding-top: 0px;
-    padding-bottom: 130px;
-  }
-  .circle-images-individual-four {
-    padding-top: 0px;
-    padding-bottom: 75px;
-  }
-  #rocket-hand {
-    height: 160%;
-    width: 55%;
-  }
-  .more-simplicit {
-    font-size: 13px;
-  }
-  #solutions-button-two {
-    right: 0%;
-    display: block;
-    max-width: 300px;
-    margin: auto;
-    font-size: 11px;
+  #solutions-subscribe-button {
+    width: 65%;
   }
 }

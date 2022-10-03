@@ -1,8 +1,32 @@
-#onsite {
+#guide-training {
   text-align: center;
-  padding: 12px;
-  font-size: 14px;
-  font-weight: bold;
+  color: white;
+  background-color: #ff99a4;
+  text-decoration: none;
+  padding: 1% 10% 0.6% 10%;
+  font-family: "Bebas Neue";
+  font-size: 18px;
+}
+
+.training-menu {
+  text-decoration: none;
+  color: white;
+}
+
+.training-menu:hover {
+  color: black;
+}
+
+.training-icons-top {
+  font-size: 28px;
+  margin-right: 8px;
+}
+
+#onsite-training {
+  font-family: "Bebas Neue";
+  text-align: center;
+  padding: 10px;
+  font-size: 17.5px;
   margin-top: 10px;
 }
 
@@ -15,8 +39,27 @@
   overflow: auto;
 }
 
+.training-titles {
+  margin-left: 60px;
+  margin-top: 30px;
+  font-family: "Bebas Neue";
+  font-weight: bolder;
+  font-size: 28px;
+}
+
 .training-text {
-  font-size: large;
+  font-family: "Source Sans 3";
+  font-size: 18.5px;
+}
+
+.mini-titles-training {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.training-icons-titles {
+  font-size: 40px;
+  margin-right: 8px;
 }
 
 .training-between {
@@ -24,17 +67,18 @@
   padding: 30px;
 }
 
-.text-between {
-  padding: 5px;
+.text-between-training {
+  padding: 0px;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   margin-right: 20px;
+  font-family: "Bebas Neue";
+  margin-bottom: 0px;
 }
 
 .let-talk-training {
+  font-family: "Bebas Neue";
   position: relative;
-  width: 166px;
-  height: 55px;
   color: white;
   background: #ff99a4;
   border: 2px solid rgba(0, 0, 0, 0.45);
@@ -42,17 +86,20 @@
   border-radius: 25px;
 }
 
+.let-talk-training:hover {
+  background: white;
+  color: #ff99a4;
+}
+
 #training-button-two {
-  right: 18%;
-  width: max-content;
+  top: 15px;
+  right: 22%;
+  height: 38px;
+  width: 160px;
+  font-size: 20px;
 }
 
-.training-titles {
-  margin-left: 60px;
-  margin-top: 30px;
-}
-
-.grey-background {
+.grey-background-training {
   background-color: #ffffff;
   opacity: 0.8;
   margin: 0px 30px 30px 30px;
@@ -105,6 +152,7 @@ footer {
 
 .training-footer-icons {
   padding: 5px;
+  visibility: hidden;
 }
 
 #training-footer-right-text {
@@ -114,8 +162,13 @@ footer {
   margin-top: 10px;
 }
 
+#training-inspire {
+  display: none;
+}
+
 #training-enter-email {
   border-radius: 0px;
+  display: none;
 }
 
 #training-subscribe-button {
@@ -124,45 +177,379 @@ footer {
   border: #ff99a4;
   text-align: end;
   width: 100%;
+  display: none;
 }
 
-@media screen and (max-width: 994px) {
-  .text-between {
-    font-size: 16px
+@media screen and (min-width: 1320px) {
+  #guide-training {
+    font-size: 21px;
+  }
+  .training-icons-top {
+    font-size: 30px;
+  }
+  #onsite-training {
+    font-size: 20px;
+  }
+  .training-icons-titles {
+    font-size: 42px;
+  }
+  .training-titles {
+    font-size: 30px;
   }
   .training-text {
-    font-size: medium;
+    font-size: 20px;
+  }
+  .mini-titles-training {
+    font-size: 22px;
+  }
+  .text-between-training {
+    font-size: 30px;
   }
   #training-button-two {
-    right: 12%;
-    font-size: 12px;
-    width: max-content;
-  }
-  .let-talk-training {
-    height: 50px;
+    top: 12px;
+    right: 22%;
+    height: 36px;
+    width: 140px;
+    font-size: 20px;
   }
 }
 
-@media screen and (max-width: 620px) {
-  .text-between {
-    font-size: 14px
+@media screen and (min-width: 1500px) {
+  #guide-training {
+    font-size: 24px;
+  }
+  .training-icons-top {
+    font-size: 32px;
+  }
+  #onsite-training {
+    font-size: 22px;
+  }
+  .training-icons-titles {
+    font-size: 44px;
+  }
+  .training-titles {
+    font-size: 32px;
   }
   .training-text {
-    font-size: small;
+    font-size: 22px;
+  }
+  .mini-titles-training {
+    font-size: 24px;
+  }
+  .text-between-training {
+    font-size: 32px;
   }
   #training-button-two {
-    right: 10%;
-    font-size: 10px;
+    top: 12px;
+    right: 22%;
+    height: 38px;
+    width: 150px;
+    font-size: 22px;
   }
-  .let-talk-training {
+}
+
+@media screen and (min-width: 1660px) {
+  #guide-training {
+    font-size: 28px;
+  }
+  .training-icons-top {
+    font-size: 36px;
+  }
+  #onsite-training {
+    font-size: 26px;
+  }
+  .training-icons-titles {
+    font-size: 48px;
+  }
+  .training-titles {
+    font-size: 36px;
+  }
+  .training-text {
+    font-size: 26px;
+  }
+  .mini-titles-training {
+    font-size: 28px;
+  }
+  .text-between-training {
+    font-size: 36px;
+  }
+  #training-button-two {
+    top: 14px;
+    right: 22%;
+    height: 42px;
+    width: 165px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  #guide-training {
+    font-size: 32px;
+  }
+  .training-icons-top {
+    font-size: 40px;
+  }
+  #onsite-training {
+    font-size: 30px;
+  }
+  .training-icons-titles {
+    font-size: 52px;
+  }
+  .training-titles {
+    font-size: 40px;
+  }
+  .training-text {
+    font-size: 30px;
+  }
+  .mini-titles-training {
+    font-size: 32px;
+  }
+  .text-between-training {
+    font-size: 40px;
+  }
+  #training-button-two {
+    top: 14px;
+    right: 25%;
     height: 45px;
+    width: 175px;
+    font-size: 28px;
   }
+}
+
+@media screen and (max-width: 1115px) {
+  #guide-training {
+    font-size: 16px;
+  }
+  .training-icons-top {
+    font-size: 26px;
+  }
+  #onsite-training {
+    font-size: 15.5px;
+  }
+  .training-icons-titles {
+    font-size: 38px;
+  }
+  .training-titles {
+    font-size: 26px;
+  }
+  .training-text {
+    font-size: 16.5px;
+  }
+  .mini-titles-training {
+    font-size: 18px;
+  }
+  .text-between-training {
+    font-size: 26px;
+  }
+  #training-button-two {
+    top: 12px;
+    right: 22%;
+    height: 35px;
+    width: 130px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #guide-training {
+    font-size: 15px;
+  }
+  .training-icons-top {
+    font-size: 24px;
+  }
+  #onsite-training {
+    font-size: 15px;
+  }
+  .training-icons-titles {
+    font-size: 36px;
+  }
+  .training-titles {
+    font-size: 24px;
+  }
+  .training-text {
+    font-size: 15.5px;
+  }
+  .mini-titles-training {
+    font-size: 16px;
+  }
+  .text-between-training {
+    font-size: 24px;
+  }
+  #training-button-two {
+    top: 10px;
+    right: 21%;
+    height: 32px;
+    width: 120px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  #guide-training {
+    font-size: 14px;
+  }
+  .training-icons-top {
+    font-size: 22px;
+  }
+  #onsite-training {
+    font-size: 14px;
+  }
+  .training-icons-titles {
+    font-size: 34px;
+  }
+  .training-titles {
+    font-size: 22px;
+  }
+  .training-text {
+    font-size: 14px;
+  }
+  .mini-titles-training {
+    font-size: 15px;
+  }
+  .text-between-training {
+    font-size: 22px;
+  }
+  #training-button-two {
+    top: 10px;
+    right: 21%;
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #guide-training {
+    font-size: 13.5px;
+  }
+  .training-icons-top {
+    font-size: 21.5px;
+  }
+  #onsite-training {
+    font-size: 13.5px;
+  }
+  .training-icons-titles {
+    font-size: 32px;
+  }
+  .training-titles {
+    font-size: 20px;
+  }
+  .training-text {
+    font-size: 13.5px;
+  }
+  .mini-titles-training {
+    font-size: 14.5px;
+  }
+  .text-between-training {
+    font-size: 21px;
+  }
+  #training-button-two {
+    top: 10px;
+    right: 20%;
+    height: 28px;
+    width: 95px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .text-between-training {
+    margin-right: 0px;
+  }
+  #training-button-two {
+    right: 14.5%;
+    width: 95px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  #guide-training {
+    font-size: 12.5px;
+    padding: 1% 7.5% 0.6% 7.5%;
+  }
+  .training-icons-top {
+    font-size: 20px;
+  }
+  #onsite-training {
+    font-size: 13.5px;
+  }
+  .training-icons-titles {
+    font-size: 28px;
+  }
+  .training-titles {
+    font-size: 18px;
+  }
+  .training-text {
+    font-size: 12px;
+  }
+  .mini-titles-training {
+    font-size: 13px;
+  }
+  .text-between-training {
+    font-size: 18px;
+  }
+  #training-button-two {
+    top: 10px;
+    right: 15%;
+    height: 25px;
+    width: 85px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #guide-training {
+    font-size: 12.5px;
+    padding: 1% 4% 0.6% 4%;
+  }
+  #training-button-two {
+    right: 0%;
+    font-size: 12px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 528px) {
+  #guide-training {
+    padding: 1% 10% 0.6% 10%;
+  }
+  .training-icons-top {
+    margin: auto;
+  }
+  .training-icons-top::after {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  #guide-training {
+    word-spacing: 1rem; 
+  }
+}
+
+/* FOOTER MQ */
+
+@media only screen and (min-width: 1530px) {
+  #training-footer-left-text {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 2030px) {
+  #training-footer-left-text {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
   #training-foot {
     display: flex;
     flex-flow: column;
   }
   #training-footer-left-text {
     order: 2;
+    font-size: 15px;
   }
   #training-footer-right-text {
     float: left;
@@ -177,11 +564,25 @@ footer {
   }
 }
 
-@media screen and (max-width: 575px) {
-  #training-button-two {
-    right: 0%;
-    display: block;
-    max-width: 300px;
-    margin: auto;
+@media only screen and (max-width: 520px) {
+  #training-foot {
+    display: flex;
+    flex-flow: column;
+  }
+  #training-footer-left-text {
+    order: 2;
+    font-size: 12px;
+  }
+  #training-footer-right-text {
+    float: left;
+    margin-left: 32px;
+    order: 1;
+  }
+  #training-enter-email {
+    width: 65%;
+  }
+  #training-subscribe-button {
+    width: 65%;
   }
 }
+

@@ -1,12 +1,24 @@
+#ham-menu {
+  background-color: black;
+  height: max-content;
+}
+
 #lines {
-  color: #ff99a4;
+  color: white;
+}
+
+#ham-button:hover {
+  background-color: #ff99a4 !important;
 }
 
 #navigation-burger {
   color: white;
-  font-weight: bold;
+  font-size: 16.5px;
+  border-radius: 5px;
+  list-style-type: none;
+  line-height: 1.1;
 }
 
 #navigation-burger:hover {
-  color: #ff99a4;
+  background-color: #ff99a4 !important;
 }

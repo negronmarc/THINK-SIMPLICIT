@@ -11,10 +11,10 @@ header {
   margin-left: 22px;
   margin-bottom: 50px;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   font-style: italic;
-  width: 400px;
+  width: 420px;
 }
 
 #work-header-right-text {
@@ -25,20 +25,17 @@ header {
   margin-top: 30px;
 }
 
-#touch {
-  text-align: end;
-}
-
 #work-header-list-text {
   list-style-type: none;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   text-align: end;
 }
 
 #contact-title {
   margin-left: 20px;
-  font-family: Source Sans 3;
+  font-family: Bebas Neue;
+  font-size: 34px;
 }
 
 #hubspot-form {
@@ -46,7 +43,19 @@ header {
   padding: 30px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: -40px;
+  object-fit: cover;
+  object-position: 0 55%;
+}
+
+#box {
+  position:relative;
+  background-color: #c4c4c4;
+  height: 60px;
+  bottom: 68px;
+  margin-left: 20px;
+  margin-right: 20px;
+  z-index: +3;
 }
 
 footer {
@@ -67,6 +76,7 @@ footer {
 
 .work-footer-icons {
   padding: 5px;
+  visibility: hidden;
 }
 
 #work-footer-right-text {
@@ -76,8 +86,13 @@ footer {
   margin-top: 10px;
 }
 
+#inspire-work {
+  display: none;
+}
+
 #work-enter-email {
   border-radius: 0px;
+  display: none;
 }
 
 #work-subscribe-button {
@@ -86,33 +101,58 @@ footer {
   border: #ff99a4;
   text-align: end;
   width: 100%;
+  display: none;
 }
 
 @media screen and (max-width: 724px) {
-  #work-header-right-text {
-    float: left;
-    margin-right: -20px;
-    margin-top: -30px;
+  #work-header-left-text {
+    margin-top: 30px;
+    margin-left: 22px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    width: auto;
   }
-  #touch {
-    text-align: left;
-    margin-left: 30px;
+  #work-header-right-text {
+    font-family: Source Sans 3;
+    float: none;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: -10px;
   }
   #work-header-list-text {
     list-style-type: none;
-    color: white;
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
+  }
+  #contact-title {
+    margin-left: 20px;
+    font-family: Bebas Neue;
+    font-size: 30px;
   }
 }
 
-@media screen and (max-width: 620px) {
+/* FOOTER MQ */
+
+@media only screen and (min-width: 1530px) {
+  #work-footer-left-text {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 2030px) {
+  #work-footer-left-text {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
   #work-foot {
     display: flex;
     flex-flow: column;
   }
   #work-footer-left-text {
     order: 2;
+    font-size: 15px;
   }
   #work-footer-right-text {
     float: left;
@@ -127,15 +167,24 @@ footer {
   }
 }
 
-@media screen and (max-width: 620px) {
-  #work-header-left-text p {
-    font-size: 15px;
-    width: 250px;
+@media only screen and (max-width: 520px) {
+  #work-foot {
+    display: flex;
+    flex-flow: column;
   }
-  #touch {
-    font-size: 20px;
+  #work-footer-left-text {
+    order: 2;
+    font-size: 12px;
   }
-  #work-header-list-text {
-    font-size: 15px;
+  #work-footer-right-text {
+    float: left;
+    margin-left: 32px;
+    order: 1;
+  }
+  #work-enter-email {
+    width: 65%;
+  }
+  #work-subscribe-button {
+    width: 65%;
   }
 }
