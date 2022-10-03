@@ -10,7 +10,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 export default function Fractional() {
   return (
     <div id="fractional-container">
-      <div id="guide" class="row justify-content-evenly">
+      <div id="guide-fractional" class="row justify-content-evenly">
         <a href="#leadership" class="col-3 fractional-menu">
           EXECUTIVE SALES LEADERSHIP
         </a>
@@ -24,27 +24,25 @@ export default function Fractional() {
           CHIEF CUSTOMER OFFICER
         </a>
       </div>
-      <div>
+      <div id="bridge-woman-container">
         <img src={womanBridge} id="bridge-woman" class="col-12" />
-        <div id="image-text-fractional" class="carousel-caption">
-          <p id="bridge-text">
-            <i>Think Simplicit</i> focuses on your client journey, and the
-            interactions they have during and after the buying process. Our
-            solutions are tailored for your business providing a blended
-            fractional service to meet the specific needs of your clients.
-          </p>
-        </div>
+        <p id="bridge-text">
+          <i>Think Simplicit</i> focuses on your client journey, and the
+          interactions they have during and after the buying process. Our
+          solutions are tailored for your business providing a blended
+          fractional service to meet the specific needs of your clients.
+        </p>
       </div>
       <div class="grey-container">
-        <h3 id="leadership" class="left-titles">
+        <h3 id="leadership" class="left-titles fractional-titles">
           EXECUTIVE SALES LEADERSHIP
         </h3>
         <div class="row justify-content-evenly">
           <img
             src={womanMeeting}
-            class="col-lg-8 col-md-8 col-sm-12 left-fractional-images"
+            class="col-lg-8 col-md-8 col-sm-12 left-fractional-images fractional-images"
           />
-          <p class="col-lg-4 col-md-4 col-sm-12 fractional-text">
+          <p class="col-lg-4 col-md-4 col-sm-12 fractional-text" id="fractional-text-space">
             <i>Think Simplicit</i> will be the manager (VP of Sales) and leader
             of your sales organization. A fractional sales leader provides the
             opportunity to bring an outside perspective of both your company and
@@ -57,11 +55,11 @@ export default function Fractional() {
         </div>
       </div>
       <div class="blank-container">
-        <h3 id="revenue" class="right-titles">
+        <h3 id="revenue" class="right-titles fractional-titles">
           CHIEF REVENUE OFFICER (CRO)
         </h3>
         <div class="row justify-content-evenly">
-          <p class="col-lg-4 col-md-4 col-sm-12 fractional-text">
+          <p class="col-lg-4 col-md-4 col-sm-12 fractional-text" id="fractional-text-space">
             <i>Think Simplicit</i> will provide your business with a CRO who
             will create alignment between all teams that affect revenue
             generation while putting the customer first. The stakeholders
@@ -75,20 +73,20 @@ export default function Fractional() {
           </p>
           <img
             src={highFive}
-            class="col-lg-8 col-md-8 col-sm-12 right-fractional-images"
+            class="col-lg-8 col-md-8 col-sm-12 right-fractional-images fractional-images"
           />
         </div>
       </div>
       <div class="grey-container">
-        <h3 id="strategy" class="left-titles">
+        <h3 id="strategy" class="left-titles fractional-titles">
           CHIEF STRATEGY OFFICER (CSO)
         </h3>
         <div class="row justify-content-evenly">
           <img
             src={salesFunnel}
-            class="col-lg-8 col-md-8 col-sm-12 left-fractional-images"
+            class="col-lg-8 col-md-8 col-sm-12 left-fractional-images fractional-images"
           />
-          <p class="col-lg-4 col-md-4 col-sm-12 fractional-text">
+          <p class="col-lg-4 col-md-4 col-sm-12 fractional-text" id="fractional-text-space">
             <i>Think Simplicit</i> will provide you with a committed and
             long-term CSO but on a part-time basis to support your business. A
             fractional CSO will provide you the platform to share ideas and
@@ -100,11 +98,11 @@ export default function Fractional() {
         </div>
       </div>
       <div class="blank-container">
-        <h3 id="customer" class="right-titles">
+        <h3 id="customer" class="right-titles fractional-titles">
           CHIEF CUSTOMER OFFICER (CCO)
         </h3>
         <div class="row justify-content-evenly">
-          <p class="col-lg-4 col-md-4 col-sm-12 fractional-text">
+          <p class="col-lg-4 col-md-4 col-sm-12 fractional-text" id="fractional-text-space">
             <i>Think Simplicit</i> will design and improve the customer
             experience your buyers are receiving from your customer service
             organization. We will create a clear vision and process that is
@@ -114,15 +112,18 @@ export default function Fractional() {
           </p>
           <img
             src={whiteIcons}
-            class="col-lg-8 col-md-8 col-sm-12 right-fractional-images"
+            class="col-lg-8 col-md-8 col-sm-12 right-fractional-images fractional-images"
           />
         </div>
       </div>
-      <div class="row ending-text">
-        <h4 class="more-simplicit col-lg-10 col-md-10 col-sm-10 col-xs-12">
+      <div class="row fractional-ending-text">
+        <h4 class="fractional-more-simplicit col-lg-10 col-md-10 col-sm-10 col-xs-12" id="simplicit-end">
           LET’S MAKE YOUR LIFE MORE SIMPLICIT
         </h4>
-        <button id="fractional-button-two" class="let-talk-fractional col-lg-1 col-md-1 col-sm-1 col-xs-12">
+        <button
+          id="fractional-button-two"
+          class="let-talk-fractional col-lg-1 col-md-1 col-sm-1 col-xs-12"
+        >
           Let's Talk
         </button>
       </div>
@@ -144,7 +145,7 @@ export default function Fractional() {
         </div>
 
         <div id="fractional-footer-right-text">
-          <h4>INSPIRE YOUR THINKING</h4>
+          <h4 id="fractional-inspire">INSPIRE YOUR THINKING</h4>
           <div class="form-group">
             <input
               type="email"

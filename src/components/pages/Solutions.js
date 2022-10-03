@@ -8,16 +8,13 @@ import glassPaper from "../assets/images/glasspaper.jpg";
 import headset from "../assets/images/headset.jpg";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { BrowserRouter as Router, Link } from "react-router-dom";
-import ButtonLink from "../ButtonLink";
 
 export default function Solutions() {
   return (
     <div id="solutions-container">
-      <div>
+      <div id="thinking-container">
         <img src={womanThinking} id="thinking-woman" class="col-12" />
-        <div id="image-text" class="carousel-caption">
-          <h2 id="think-simple-text">Think Simple, Think Simplicit</h2>
-        </div>
+        <h2 id="think-simple-text">Think Simple, Think Simplicit</h2>
       </div>
       <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
@@ -87,8 +84,8 @@ export default function Solutions() {
           <img src={headset} class="circle-images" />
         </div>
       </div>
-      <div class="row ending-text">
-        <h4 class="more-simplicit col-lg-10 col-md-10 col-sm-10 col-xs-12">
+      <div class="row solutions-ending-text">
+        <h4 class="solutions-more-simplicit col-lg-10 col-md-10 col-sm-10 col-xs-12">
           LET’S MAKE YOUR LIFE MORE SIMPLICIT
         </h4>
         <button
@@ -115,7 +112,7 @@ export default function Solutions() {
         </div>
 
         <div id="solutions-footer-right-text">
-          <h4>INSPIRE YOUR THINKING</h4>
+          <h4 id="solutions-inspire">INSPIRE YOUR THINKING</h4>
           <div class="form-group">
             <input
               type="email"
