@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.f030b530.css",
-    "main.js": "/static/js/main.18a32c88.js",
-    "static/media/salesfunnel.jpg": "/static/media/salesfunnel.5d3d47c62953d9cc2b85.jpg",
-    "static/media/bridge.jpg": "/static/media/bridge.cc5425ae8d5f206ab410.jpg",
-    "static/media/grouptalk.jpg": "/static/media/grouptalk.67e18cb99d07cce47f53.jpg",
-    "static/media/whiteicons.jpg": "/static/media/whiteicons.162a14252b225e17410a.jpg",
-    "static/media/groupmeeting.jpg": "/static/media/groupmeeting.faa97f140d9e02d2abc5.jpg",
-    "static/media/meeting.jpg": "/static/media/meeting.bc01bf63f73dfbcab99e.jpg",
-    "static/media/storytelling.jpg": "/static/media/storytelling.178f9cad510d6dd14690.jpg",
-    "static/media/headset.jpg": "/static/media/headset.48ca83a8cafc97330939.jpg",
-    "static/media/rockethand.jpg": "/static/media/rockethand.99a257d892f48703cded.jpg",
-    "static/media/fivemeeting.jpg": "/static/media/fivemeeting.a266373e9072699294d7.jpg",
-    "static/media/thinking.jpg": "/static/media/thinking.74562441a168c313b077.jpg",
-    "static/media/glasspaper.jpg": "/static/media/glasspaper.dd21689951a2d1243e5c.jpg",
-    "static/media/shakehands.jpg": "/static/media/shakehands.2c30255d0766b0f41b7d.jpg",
-    "static/media/tablet.jpg": "/static/media/tablet.6a5be9e7b9fb8dcac708.jpg",
-    "static/media/suit.jpg": "/static/media/suit.3cf5046d3c955b9038b9.jpg",
+    "main.css": "/static/css/main.8708cc21.css",
+    "main.js": "/static/js/main.e1c923d0.js",
+    "static/media/salesfunnel.jpg": "/static/media/salesfunnel.6294a992f65c61fcb25a.jpg",
+    "static/media/bridge.jpg": "/static/media/bridge.2a9e6a63e018dfb1a7d3.jpg",
+    "static/media/grouptalk.jpg": "/static/media/grouptalk.140181e1ed1ab8b73d04.jpg",
+    "static/media/meeting.jpg": "/static/media/meeting.7d6939079621a60d7249.jpg",
+    "static/media/whiteicons.jpg": "/static/media/whiteicons.a30701e5f39ddd9799cb.jpg",
+    "static/media/groupmeeting.jpg": "/static/media/groupmeeting.803fa09551957e6290e2.jpg",
+    "static/media/fivemeeting.jpg": "/static/media/fivemeeting.56485976808be3b6fdf6.jpg",
+    "static/media/headset.jpg": "/static/media/headset.a6497f5e358ccd3e7cc0.jpg",
+    "static/media/suit.jpg": "/static/media/suit.0e9a73c454df5337f636.jpg",
+    "static/media/storytelling.jpg": "/static/media/storytelling.8acd6071afc311abcf3f.jpg",
+    "static/media/rockethand.jpg": "/static/media/rockethand.9eb56c26d74cab614baa.jpg",
+    "static/media/glasspaper.jpg": "/static/media/glasspaper.ad6f89c661607ab25be0.jpg",
+    "static/media/thinking.jpg": "/static/media/thinking.9ccb08c2ad1b8aa803a1.jpg",
+    "static/media/tablet.jpg": "/static/media/tablet.ef772679b9450b09507f.jpg",
+    "static/media/shakehands.jpg": "/static/media/shakehands.72b821d5eaac032b03cf.jpg",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
     "static/media/logo.png": "/static/media/logo.c649805f7fe3253bd453.png",
     "index.html": "/index.html",
-    "main.f030b530.css.map": "/static/css/main.f030b530.css.map",
-    "main.18a32c88.js.map": "/static/js/main.18a32c88.js.map"
+    "main.8708cc21.css.map": "/static/css/main.8708cc21.css.map",
+    "main.e1c923d0.js.map": "/static/js/main.e1c923d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f030b530.css",
-    "static/js/main.18a32c88.js"
+    "static/css/main.8708cc21.css",
+    "static/js/main.e1c923d0.js"
   ]
 }
