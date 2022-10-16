@@ -7,7 +7,6 @@ import rocketHand from "../assets/images/rockethand.jpg";
 import glassPaper from "../assets/images/glasspaper.jpg";
 import headset from "../assets/images/headset.jpg";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export default function Solutions() {
   return (
@@ -40,13 +39,11 @@ export default function Solutions() {
           </ul>
         </div>
       </div>
-      <Router>
-        <Link to="/Workwithus">
-          <button id="solutions-button-one" class="let-talk-solutions">
-            Let's Talk
-          </button>
-        </Link>
-      </Router>
+      <a href="https://thinksimplicit.com/#Workwithus">
+        <button id="solutions-button-one" class="let-talk-solutions">
+          Let's Talk
+        </button>
+      </a>
       <h3 id="what-story" class="col-12">
         WHAT’S YOUR CUSTOMER JOURNEY?
       </h3>
@@ -88,12 +85,16 @@ export default function Solutions() {
         <h4 class="solutions-more-simplicit col-lg-10 col-md-10 col-sm-10 col-xs-12">
           LET’S MAKE YOUR LIFE MORE SIMPLICIT
         </h4>
+
+        
         <button
           id="solutions-button-two"
           class="let-talk-solutions col-lg-1 col-md-1 col-sm-1 col-xs-12"
         >
           Let's Talk
         </button>
+      
+
       </div>
       <footer id="solutions-foot">
         <div id="solutions-footer-left-text">

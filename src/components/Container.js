@@ -10,7 +10,6 @@ import Hamburger from "./Hamburger";
 import logo from "./assets/images/logo.png";
 import "./assets/css/container.css";
 
-
 export default function ThinkContainer() {
   const [currentPage, setCurrentPage] = useState("Solutions");
 
@@ -40,7 +39,9 @@ export default function ThinkContainer() {
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
       <div id="header">
-        <img src={logo} id="title-logo" />
+        <a href="/Solutions">
+          <img src={logo} id="title-logo" />
+        </a>
         <div id="nav">
           <NavTabs
             currentPage={currentPage}
