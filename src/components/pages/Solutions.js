@@ -39,7 +39,7 @@ export default function Solutions() {
           </ul>
         </div>
       </div>
-      <a href="https://www.thinksimplicit.com/#Workwithus">
+      <a href="https://thinksimplicit.com/Workwithus">
         <button id="solutions-button-one" class="let-talk-solutions">
           Let's Talk
         </button>
@@ -85,12 +85,12 @@ export default function Solutions() {
         <h4 class="solutions-more-simplicit col-lg-10 col-md-10 col-sm-10 col-xs-12">
           LET’S MAKE YOUR LIFE MORE SIMPLICIT
         </h4>
-          <button
-            id="solutions-button-two"
-            class="let-talk-solutions col-lg-1 col-md-1 col-sm-1 col-xs-12"
-          >
-            Let's Talk
-          </button>
+        <button
+          id="solutions-button-two"
+          class="let-talk-solutions col-lg-1 col-md-1 col-sm-1 col-xs-12"
+        >
+          Let's Talk
+        </button>
       </div>
       <footer id="solutions-foot">
         <div id="solutions-footer-left-text">
