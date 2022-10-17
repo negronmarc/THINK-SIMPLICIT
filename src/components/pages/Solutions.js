@@ -39,7 +39,7 @@ export default function Solutions() {
           </ul>
         </div>
       </div>
-      <a href="https://thinksimplicit.com/#Workwithus">
+      <a href="https://www.thinksimplicit.com/#Workwithus">
         <button id="solutions-button-one" class="let-talk-solutions">
           Let's Talk
         </button>
