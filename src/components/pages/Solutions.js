@@ -39,11 +39,9 @@ export default function Solutions() {
           </ul>
         </div>
       </div>
-      <a href="https://thinksimplicit.com/Workwithus">
-        <button id="solutions-button-one" class="let-talk-solutions">
-          Let's Talk
-        </button>
-      </a>
+      <button id="solutions-button-one" class="let-talk-solutions">
+        Let's Talk
+      </button>
       <h3 id="what-story" class="col-12">
         WHAT’S YOUR CUSTOMER JOURNEY?
       </h3>

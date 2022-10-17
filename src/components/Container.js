@@ -39,7 +39,7 @@ export default function ThinkContainer() {
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
       <div id="header">
-        <a href="www.thinksimplicit.com">
+        <a href="/Solutions">
           <img src={logo} id="title-logo" />
         </a>
         <div id="nav">
