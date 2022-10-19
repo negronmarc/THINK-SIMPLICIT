@@ -23,7 +23,7 @@ function Hamburger({ currentPage, handlePageChange }) {
         <div class="">
           <button class="btn btn-link m-0 text-decoration-none">
             <a
-              href="/Solutions"
+              href="#Solutions"
               id="navigation-burger"
               onClick={() => handlePageChange("Solutions")}
               className={
@@ -35,7 +35,7 @@ function Hamburger({ currentPage, handlePageChange }) {
           </button>
           <button class="btn btn-link m-0 text-decoration-none">
             <a
-              href="/Fractional"
+              href="#Fractional"
               id="navigation-burger"
               onClick={() => handlePageChange("Fractional")}
               className={
@@ -47,7 +47,7 @@ function Hamburger({ currentPage, handlePageChange }) {
           </button>
           <button class="btn btn-link m-0 text-decoration-none">
             <a
-              href="/Training"
+              href="#Training"
               id="navigation-burger"
               onClick={() => handlePageChange("Training")}
               className={
@@ -60,7 +60,7 @@ function Hamburger({ currentPage, handlePageChange }) {
           <button class="btn btn-link btn-block m-0 text-decoration-none">
             {" "}
             <a
-              href="/Workwithus"
+              href="#Workwithus"
               id="navigation-burger"
               onClick={() => handlePageChange("Workwithus")}
               className={

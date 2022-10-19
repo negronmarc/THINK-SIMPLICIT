@@ -6,9 +6,18 @@ import shakeHands from "../assets/images/shakehands.jpg";
 import rocketHand from "../assets/images/rockethand.jpg";
 import glassPaper from "../assets/images/glasspaper.jpg";
 import headset from "../assets/images/headset.jpg";
+// import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+// import Work from "./Work";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 export default function Solutions() {
+  // const navigate = useNavigate();
+
+  // const navigateWork = () => {
+  //   // 👇️ navigate to /work
+  //   navigate("/work");
+  // };
+
   return (
     <div id="solutions-container">
       <div id="thinking-container">
@@ -39,9 +48,16 @@ export default function Solutions() {
           </ul>
         </div>
       </div>
-      <button id="solutions-button-one" class="let-talk-solutions">
+      {/* <button
+        onClick={navigateWork}
+        id="solutions-button-one"
+        class="let-talk-solutions"
+      >
         Let's Talk
       </button>
+      <Routes>
+        <Route path="/work" element={<Work />} />
+      </Routes> */}
       <h3 id="what-story" class="col-12">
         WHAT’S YOUR CUSTOMER JOURNEY?
       </h3>
@@ -83,12 +99,12 @@ export default function Solutions() {
         <h4 class="solutions-more-simplicit col-lg-10 col-md-10 col-sm-10 col-xs-12">
           LET’S MAKE YOUR LIFE MORE SIMPLICIT
         </h4>
-        <button
+        {/* <button
           id="solutions-button-two"
           class="let-talk-solutions col-lg-1 col-md-1 col-sm-1 col-xs-12"
         >
           Let's Talk
-        </button>
+        </button> */}
       </div>
       <footer id="solutions-foot">
         <div id="solutions-footer-left-text">

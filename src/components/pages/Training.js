@@ -120,16 +120,16 @@ export default function Training() {
         </div>
       </div>
       <div class="row training-between">
-        <h4 class="text-between-training col-lg-10 col-md-10 col-sm-10 col-xs-12">
+        <h4 class="text-between-training col-12">
           WE BUILD THE FOUNDATION TO OPTIMIZE <br />
           YOUR SALES POTENTIAL
         </h4>
-        <button
+        {/* <button
           id="training-button-two"
           class="let-talk-training col-lg-1 col-md-1 col-sm-1 col-xs-12"
         >
           Let's Talk
-        </button>
+        </button> */}
       </div>
       <div id="sales-coaching">
         <h5 class="training-titles">
@@ -206,16 +206,16 @@ export default function Training() {
         </div>
       </div>
       <div class="row training-between">
-        <h4 class="text-between-training col-lg-10 col-md-10 col-sm-10 col-xs-12">
+        <h4 class="text-between-training col-12">
           WE CREATE INTERACTIVE WORKSHOPS TO BUILD <br />
           UPON AN ESTABLISHED FOUNDATION
         </h4>
-        <button
+        {/* <button
           id="training-button-two"
           class="let-talk-training col-lg-1 col-md-1 col-sm-1 col-xs-12"
         >
           Let's Talk
-        </button>
+        </button> */}
       </div>
       <div id="crm-consulting">
         <h5 class="training-titles">
@@ -300,16 +300,16 @@ export default function Training() {
         </div>
       </div>
       <div class="row training-between">
-        <h4 class="text-between-training col-lg-10 col-md-10 col-sm-10 col-xs-12">
+        <h4 class="text-between-training col-12">
           WE ASSIST IN CREATING A HIGH PERFORMING CRM <br />
           PROCESSES TO OPTIMIZE SALES & MARKETING
         </h4>
-        <button
+        {/* <button
           id="training-button-two"
           class="let-talk-training col-lg-1 col-md-1 col-sm-1 col-xs-12"
         >
           Let's Talk
-        </button>
+        </button> */}
       </div>
       <div id="brand-experience">
         <h5 class="training-titles">
@@ -385,16 +385,16 @@ export default function Training() {
         </div>
       </div>
       <div class="row training-between">
-        <h4 class="text-between-training col-lg-10 col-md-10 col-sm-10 col-xs-12">
+        <h4 class="text-between-training col-12">
           WE DEVELOP A CUSTOMER JOURNEY THAT ENABLES <br />
           YOUR BRAND TO HAVE THE BIGGEST IMPACT
         </h4>
-        <button
+        {/* <button
           id="training-button-two"
           class="let-talk-training col-lg-1 col-md-1 col-sm-1 col-xs-12"
         >
           Let's Talk
-        </button>
+        </button> */}
       </div>
       <footer id="training-foot">
         <div id="training-footer-left-text">

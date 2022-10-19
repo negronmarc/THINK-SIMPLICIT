@@ -10,10 +10,13 @@ import Hamburger from "./Hamburger";
 import logo from "./assets/images/logo.png";
 import "./assets/css/container.css";
 
+const logoClick = () => {
+  window.location.replace("www.thinksimplicit.com");
+};
+
 export default function ThinkContainer() {
   const [currentPage, setCurrentPage] = useState("Solutions");
 
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
     if (currentPage === "Solutions") {
       return <Solutions />;
@@ -37,11 +40,8 @@ export default function ThinkContainer() {
 
   return (
     <div>
-      {/* We are passing the currentPage from state and the function to update it */}
       <div id="header">
-        <a href="/Solutions">
-          <img src={logo} id="title-logo" />
-        </a>
+        <img src={logo} id="title-logo" onClick={logoClick} />
         <div id="nav">
           <NavTabs
             currentPage={currentPage}
@@ -55,7 +55,6 @@ export default function ThinkContainer() {
           />
         </div>
       </div>
-      {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
     </div>
   );

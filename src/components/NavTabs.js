@@ -9,19 +9,19 @@ function NavTabs({ currentPage, handlePageChange }) {
         <Dropdown.Toggle id="dropdown-button">SOLUTIONS</Dropdown.Toggle>
         <Dropdown.Menu>
           <Dropdown.Item
-            href="/Solutions"
+            href="#Solutions"
             onClick={() => handlePageChange("Solutions")}
           >
             HOME
           </Dropdown.Item>
           <Dropdown.Item
-            href="/Fractional"
+            href="#Fractional"
             onClick={() => handlePageChange("Fractional")}
           >
             FRACTIONAL SERVICES
           </Dropdown.Item>
           <Dropdown.Item
-            href="/Training"
+            href="#Training"
             onClick={() => handlePageChange("Training")}
           >
             TRAINING & DEVELOPMENT
@@ -30,7 +30,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </Dropdown>
       {/* <li className="nav-item">
         <a
-          href="/About"
+          href="#About"
           id="navigation"
           onClick={() => handlePageChange("About")}
         >
@@ -39,7 +39,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li> */}
       {/* <li className="nav-item">
         <a
-          href="/Resources"
+          href="#Resources"
           id="navigation"
           onClick={() => handlePageChange("Resources")}
         >
@@ -48,7 +48,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li> */}
       <li className="nav-item">
         <a
-          href="/Workwithus"
+          href="#Workwithus"
           id="navigation"
           onClick={() => handlePageChange("Work")}
         >

@@ -117,15 +117,15 @@ export default function Fractional() {
         </div>
       </div>
       <div class="row fractional-ending-text">
-        <h4 class="fractional-more-simplicit col-lg-10 col-md-10 col-sm-10 col-xs-12" id="simplicit-end">
+        <h4 class="fractional-more-simplicit col-12" id="simplicit-end">
           LET’S MAKE YOUR LIFE MORE SIMPLICIT
         </h4>
-        <button
+        {/* <button
           id="fractional-button-two"
           class="let-talk-fractional col-lg-1 col-md-1 col-sm-1 col-xs-12"
         >
           Let's Talk
-        </button>
+        </button> */}
       </div>
 
       <footer id="fractional-foot">
