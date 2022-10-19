@@ -11,7 +11,7 @@ import logo from "./assets/images/logo.png";
 import "./assets/css/container.css";
 
 const logoClick = () => {
-  window.location.replace("www.thinksimplicit.com");
+  window.location.replace("/Solutions");
 };
 
 export default function ThinkContainer() {
