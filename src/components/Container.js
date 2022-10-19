@@ -42,7 +42,7 @@ export default function ThinkContainer() {
     <div>
       <div id="header">
         {/* <img src={logo} id="title-logo" onClick={logoClick} /> */}
-        <a href="/Solutions">
+        <a href=".">
           <img src={logo} id="title-logo" />
         </a>
         <div id="nav">
