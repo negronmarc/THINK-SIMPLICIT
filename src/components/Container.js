@@ -10,9 +10,9 @@ import Hamburger from "./Hamburger";
 import logo from "./assets/images/logo.png";
 import "./assets/css/container.css";
 
-const logoClick = () => {
-  window.location.replace("/Solutions");
-};
+// const logoClick = () => {
+//   window.location.replace("/Solutions");
+// };
 
 export default function ThinkContainer() {
   const [currentPage, setCurrentPage] = useState("Solutions");
@@ -41,7 +41,10 @@ export default function ThinkContainer() {
   return (
     <div>
       <div id="header">
-        <img src={logo} id="title-logo" onClick={logoClick} />
+        {/* <img src={logo} id="title-logo" onClick={logoClick} /> */}
+        <a href="/Solutions">
+          <img src={logo} id="title-logo" />
+        </a>
         <div id="nav">
           <NavTabs
             currentPage={currentPage}
