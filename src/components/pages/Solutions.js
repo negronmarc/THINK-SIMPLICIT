@@ -96,7 +96,7 @@ export default function Solutions() {
         </div>
       </div>
       <div class="row solutions-ending-text">
-        <h4 class="solutions-more-simplicit col-lg-10 col-md-10 col-sm-10 col-xs-12">
+        <h4 class="solutions-more-simplicit col-12">
           LET’S MAKE YOUR LIFE MORE SIMPLICIT
         </h4>
         {/* <button
